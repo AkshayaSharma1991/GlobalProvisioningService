@@ -1,0 +1,634 @@
+2020-01-07 00:39:43,952 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h33m30s215ms).
+2020-01-07 03:51:16,429 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m30s811ms).
+2020-01-07 04:42:01,314 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m44s886ms).
+2020-01-07 04:42:47,476 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s149ms).
+2020-01-07 10:27:44,151 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h44m56s688ms).
+2020-01-07 11:55:39,823 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m24s181ms).
+2020-01-07 12:09:54,506 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m44s).
+2020-01-07 14:33:12,754 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-12] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-07 14:33:12,780 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-12] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-07 14:33:12,889 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-1 - Shutdown initiated...
+2020-01-07 14:33:12,906 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-1 - Shutdown completed.
+2020-01-07 14:33:13,016 INFO org.eclipse.jetty.server.AbstractConnector [Thread-12] Stopped ServerConnector@32120956{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2020-01-07 14:33:13,021 INFO org.eclipse.jetty.server.session.HouseKeeper [Thread-12] node0 Stopped scavenging
+2020-01-07 14:33:13,051 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [Thread-12] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-01-07 14:33:13,080 INFO org.eclipse.jetty.server.handler.ContextHandler [Thread-12] Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@e344f14{application,/,[file:///private/var/folders/jm/6wbg86m14ls3y573xtjkhjkr0000gp/T/jetty-docbase.5793867961735726228.8081/, jar:file:/Users/akshayas/m2/repository/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-01-07 19:55:10,993 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 94422 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-07 19:55:10,998 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-07 19:55:10,999 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-07 19:55:12,081 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-07 19:55:12,182 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 89ms. Found 3 repository interfaces.
+2020-01-07 19:55:12,681 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e2b106b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 19:55:12,747 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$7b5ecef2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 19:55:12,753 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 19:55:12,755 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@51dae791' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 19:55:12,758 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$a03371a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 19:55:12,764 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 19:55:13,008 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @23149ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-07 19:55:13,133 INFO org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory [main] Server initialized with port: 8081
+2020-01-07 19:55:13,136 INFO org.eclipse.jetty.server.Server [main] jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_144-b01
+2020-01-07 19:55:13,174 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [main] Initializing Spring embedded WebApplicationContext
+2020-01-07 19:55:13,174 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2114 ms
+2020-01-07 19:55:13,541 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-01-07 19:55:13,738 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-01-07 19:55:13,803 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-01-07 19:55:13,918 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.12.Final}
+2020-01-07 19:55:13,920 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2020-01-07 19:55:14,146 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-01-07 19:55:14,383 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2020-01-07 19:55:14,408 INFO org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2020-01-07 19:55:14,416 INFO org.hibernate.type.BasicTypeRegistry [main] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3e8b8f0
+2020-01-07 19:55:15,680 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-07 19:55:16,403 INFO org.eclipse.jetty.server.session.DefaultSessionIdManager [main] DefaultSessionIdManager workerName=node0
+2020-01-07 19:55:16,404 INFO org.eclipse.jetty.server.session.DefaultSessionIdManager [main] No SessionScavenger set, using defaults
+2020-01-07 19:55:16,407 INFO org.eclipse.jetty.server.session.HouseKeeper [main] node0 Scavenging every 660000ms
+2020-01-07 19:55:16,420 INFO org.eclipse.jetty.server.handler.ContextHandler [main] Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@39a9becc{application,/,[file:///private/var/folders/jm/6wbg86m14ls3y573xtjkhjkr0000gp/T/jetty-docbase.7752434602596940560.8081/, jar:file:/Users/akshayas/m2/repository/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-01-07 19:55:16,421 INFO org.eclipse.jetty.server.Server [main] Started @26562ms
+2020-01-07 19:55:16,875 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-07 19:55:17,217 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-01-07 19:55:17,225 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-07 19:55:17,257 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 32 ms
+2020-01-07 19:55:17,499 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5fee3c9c, org.springframework.security.web.context.SecurityContextPersistenceFilter@5466a819, org.springframework.security.web.header.HeaderWriterFilter@67eabe02, org.springframework.web.filter.CorsFilter@7e577eed, org.springframework.security.web.authentication.logout.LogoutFilter@7d381eae, com.marvel.gps.security.jwt.JWTAuthTokenFilter@34d72f06, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@401d83ce, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@14af57c3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@11a0c708, org.springframework.security.web.session.SessionManagementFilter@2a7b4bb6, org.springframework.security.web.access.ExceptionTranslationFilter@73483d4b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@ae5d544]
+2020-01-07 19:55:17,684 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 19:55:18,027 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2020-01-07 19:55:18,059 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2020-01-07 19:55:18,108 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2020-01-07 19:55:18,387 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-07 19:55:18,393 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [main] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-07 19:55:18,393 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet 'dispatcherServlet'
+2020-01-07 19:55:18,407 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 14 ms
+2020-01-07 19:55:18,474 INFO org.eclipse.jetty.server.AbstractConnector [main] Started ServerConnector@8bd076a{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2020-01-07 19:55:18,477 INFO org.springframework.boot.web.embedded.jetty.JettyWebServer [main] Jetty started on port(s) 8081 (http/1.1) with context path '/'
+2020-01-07 19:55:18,481 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 28.063 seconds (JVM running for 28.622)
+2020-01-07 19:55:57,191 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [qtp275448142-36] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-07 19:57:04,989 DEBUG com.marvel.gps.util.LoggingUtil [qtp275448142-34] Checking if email is already registered.  Email Id: akshayas
+2020-01-07 19:57:04,999 DEBUG com.marvel.gps.util.LoggingUtil [qtp275448142-34] Checking if mobile number is already registered.  Mobile No: 433423422
+2020-01-07 19:57:05,003 INFO com.marvel.gps.util.LoggingUtil [qtp275448142-34] User does not exist in the system.  Creating user: akshayas
+2020-01-07 19:57:30,306 ERROR com.marvel.gps.util.LoggingUtil [qtp275448142-19] Unauthorized error. Message - message=Unauthorized error. Message - {}
+2020-01-07 19:58:33,194 ERROR com.marvel.gps.util.LoggingUtil [qtp275448142-23] Unauthorized error. Message - message=Unauthorized error. Message - {}
+2020-01-07 19:59:23,842 INFO com.marvel.gps.util.LoggingUtil [qtp275448142-22] Request received to list VM for user: akshayas
+2020-01-07 19:59:23,853 WARN org.eclipse.jetty.server.HttpChannel [qtp275448142-22] /gps/provisionService/getVMsForUser
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.dao.IncorrectResultSizeDataAccessException: query did not return a unique result: 2; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 2
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:645)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:876)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1623)
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:214)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.marvel.gps.security.jwt.JWTAuthTokenFilter.doFilterInternal(JWTAuthTokenFilter.java:45)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:97)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1711)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1347)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1678)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1249)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:781)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:917)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.dao.IncorrectResultSizeDataAccessException: query did not return a unique result: 2; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 2
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:385)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:256)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:528)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:153)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:144)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$ExposeRepositoryInvocationInterceptor.invoke(CrudMethodMetadataPostProcessor.java:364)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy125.findByUserName(Unknown Source)
+	at com.marvel.gps.serviceimpl.VMProvisionServiceImpl.getVMListForUser(VMProvisionServiceImpl.java:45)
+	at com.marvel.gps.web.controller.ProvisioningController.listVMForUser(ProvisioningController.java:50)
+	at com.marvel.gps.web.controller.ProvisioningController$$FastClassBySpringCGLIB$$c0a5db.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:69)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.marvel.gps.web.controller.ProvisioningController$$EnhancerBySpringCGLIB$$494dc828.listVMForUser(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:798)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	... 86 common frames omitted
+Caused by: javax.persistence.NonUniqueResultException: query did not return a unique result: 2
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:128)
+	at org.hibernate.query.internal.AbstractProducedQuery.getSingleResult(AbstractProducedQuery.java:1561)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getSingleResult(CriteriaQueryTypeQueryAdapter.java:109)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:221)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:91)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:136)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:125)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:605)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$invoke$3(RepositoryFactorySupport.java:595)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:595)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	... 120 common frames omitted
+2020-01-07 20:02:22,689 INFO com.marvel.gps.util.LoggingUtil [qtp275448142-22] VM Provision request received for user: JohnDoe
+2020-01-07 20:02:22,695 INFO com.marvel.gps.util.LoggingUtil [qtp275448142-22] Retrieving user based on userName: JohnDoe
+2020-01-07 20:02:22,698 INFO com.marvel.gps.util.LoggingUtil [qtp275448142-22] Retrieving user based on userName: JohnDoe successful
+2020-01-07 20:02:22,731 INFO com.marvel.gps.util.LoggingUtil [qtp275448142-22] Saved VM successfully for user: JohnDoe, with following specifications.  OS: MAC OS, RAM: 28, Hard Disk: 192, cpuCore: 8
+2020-01-07 20:02:48,066 ERROR com.marvel.gps.util.LoggingUtil [qtp275448142-16] Unauthorized error. Message - message=Unauthorized error. Message - {}
+2020-01-07 20:18:45,137 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m31s255ms).
+2020-01-07 20:43:13,057 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m27s921ms).
+2020-01-07 20:43:42,739 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s682ms), soft-evicting connections from pool.
+2020-01-07 20:44:39,658 ERROR com.marvel.gps.util.LoggingUtil [qtp275448142-33] Unauthorized error. Message - message=Unauthorized error. Message - {}
+2020-01-07 20:44:51,107 ERROR com.marvel.gps.util.LoggingUtil [qtp275448142-19] Unauthorized error. Message - message=Unauthorized error. Message - {}
+2020-01-07 20:45:38,825 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [qtp275448142-23] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 6, column: 40]]
+2020-01-07 20:46:17,630 DEBUG com.marvel.gps.util.LoggingUtil [qtp275448142-35] Checking if email is already registered.  Email Id: akshaya.sharma@sap.com
+2020-01-07 20:46:17,633 DEBUG com.marvel.gps.util.LoggingUtil [qtp275448142-35] Checking if mobile number is already registered.  Mobile No: 342320342
+2020-01-07 20:46:17,636 INFO com.marvel.gps.util.LoggingUtil [qtp275448142-35] User does not exist in the system.  Creating user: akshaya.sharma@sap.com
+2020-01-07 20:46:58,615 INFO com.marvel.gps.util.LoggingUtil [qtp275448142-35] VM Provision request received for user: akshaya.sharma@sap.com
+2020-01-07 20:46:58,616 INFO com.marvel.gps.util.LoggingUtil [qtp275448142-35] Retrieving user based on userName: akshaya.sharma@sap.com
+2020-01-07 20:46:58,619 INFO com.marvel.gps.util.LoggingUtil [qtp275448142-35] Retrieving user based on userName: akshaya.sharma@sap.com successful
+2020-01-07 20:46:58,629 INFO com.marvel.gps.util.LoggingUtil [qtp275448142-35] Saved VM successfully for user: akshaya.sharma@sap.com, with following specifications.  OS: MAC OS, RAM: 28, Hard Disk: 192, cpuCore: 8
+2020-01-07 20:53:20,906 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-12] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-07 20:53:20,910 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-12] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-07 20:53:20,912 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-1 - Shutdown initiated...
+2020-01-07 20:53:20,915 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-1 - Shutdown completed.
+2020-01-07 20:53:20,922 INFO org.eclipse.jetty.server.AbstractConnector [Thread-12] Stopped ServerConnector@8bd076a{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2020-01-07 20:53:20,922 INFO org.eclipse.jetty.server.session.HouseKeeper [Thread-12] node0 Stopped scavenging
+2020-01-07 20:53:20,924 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [Thread-12] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-01-07 20:53:20,925 INFO org.eclipse.jetty.server.handler.ContextHandler [Thread-12] Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@39a9becc{application,/,[file:///private/var/folders/jm/6wbg86m14ls3y573xtjkhjkr0000gp/T/jetty-docbase.7752434602596940560.8081/, jar:file:/Users/akshayas/m2/repository/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-01-07 20:53:26,275 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 94857 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-07 20:53:26,278 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-07 20:53:26,278 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-07 20:53:27,176 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-07 20:53:27,262 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 78ms. Found 3 repository interfaces.
+2020-01-07 20:53:27,717 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$99d25a01] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 20:53:27,771 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$3280223b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 20:53:27,779 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 20:53:27,782 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4a8ffd75' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 20:53:27,785 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$5754c4ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 20:53:27,789 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 20:53:28,028 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @2812ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-07 20:53:28,128 INFO org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory [main] Server initialized with port: 8081
+2020-01-07 20:53:28,132 INFO org.eclipse.jetty.server.Server [main] jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_144-b01
+2020-01-07 20:53:28,165 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [main] Initializing Spring embedded WebApplicationContext
+2020-01-07 20:53:28,166 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1839 ms
+2020-01-07 20:53:28,564 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-01-07 20:53:28,705 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-01-07 20:53:28,794 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-01-07 20:53:28,899 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.12.Final}
+2020-01-07 20:53:28,902 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2020-01-07 20:53:29,045 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-01-07 20:53:29,248 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2020-01-07 20:53:29,275 INFO org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2020-01-07 20:53:29,284 INFO org.hibernate.type.BasicTypeRegistry [main] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2c3f43d1
+2020-01-07 20:53:30,249 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-07 20:53:30,930 INFO org.eclipse.jetty.server.session.DefaultSessionIdManager [main] DefaultSessionIdManager workerName=node0
+2020-01-07 20:53:30,930 INFO org.eclipse.jetty.server.session.DefaultSessionIdManager [main] No SessionScavenger set, using defaults
+2020-01-07 20:53:30,932 INFO org.eclipse.jetty.server.session.HouseKeeper [main] node0 Scavenging every 600000ms
+2020-01-07 20:53:30,941 INFO org.eclipse.jetty.server.handler.ContextHandler [main] Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@642d971f{application,/,[file:///private/var/folders/jm/6wbg86m14ls3y573xtjkhjkr0000gp/T/jetty-docbase.4911291818189187744.8081/, jar:file:/Users/akshayas/m2/repository/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-01-07 20:53:30,942 INFO org.eclipse.jetty.server.Server [main] Started @5726ms
+2020-01-07 20:53:31,269 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-07 20:53:31,615 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-01-07 20:53:31,621 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-07 20:53:31,641 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 19 ms
+2020-01-07 20:53:31,846 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29f86630, org.springframework.security.web.context.SecurityContextPersistenceFilter@456c53a, org.springframework.security.web.header.HeaderWriterFilter@2cdcedef, org.springframework.web.filter.CorsFilter@6b8a9e1, org.springframework.security.web.authentication.logout.LogoutFilter@768f2398, com.marvel.gps.security.jwt.JWTAuthTokenFilter@10230657, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58fadccb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@45dfb6a4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c51fc9a, org.springframework.security.web.session.SessionManagementFilter@6408a8ac, org.springframework.security.web.access.ExceptionTranslationFilter@22b4ad0c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@28d728f1]
+2020-01-07 20:53:32,013 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 20:53:32,278 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2020-01-07 20:53:32,303 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2020-01-07 20:53:32,344 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2020-01-07 20:53:32,548 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-07 20:53:32,552 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [main] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-07 20:53:32,553 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet 'dispatcherServlet'
+2020-01-07 20:53:32,563 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 10 ms
+2020-01-07 20:53:32,608 INFO org.eclipse.jetty.server.AbstractConnector [main] Started ServerConnector@385dfb63{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2020-01-07 20:53:32,610 INFO org.springframework.boot.web.embedded.jetty.JettyWebServer [main] Jetty started on port(s) 8081 (http/1.1) with context path '/'
+2020-01-07 20:53:32,613 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 6.898 seconds (JVM running for 7.397)
+2020-01-07 20:53:41,646 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [qtp1506083063-23] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-07 20:56:46,677 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-12] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-07 20:56:46,682 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-12] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-07 20:56:46,684 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-1 - Shutdown initiated...
+2020-01-07 20:56:46,687 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-1 - Shutdown completed.
+2020-01-07 20:56:46,694 INFO org.eclipse.jetty.server.AbstractConnector [Thread-12] Stopped ServerConnector@385dfb63{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2020-01-07 20:56:46,695 INFO org.eclipse.jetty.server.session.HouseKeeper [Thread-12] node0 Stopped scavenging
+2020-01-07 20:56:46,697 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [Thread-12] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-01-07 20:56:46,697 INFO org.eclipse.jetty.server.handler.ContextHandler [Thread-12] Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@642d971f{application,/,[file:///private/var/folders/jm/6wbg86m14ls3y573xtjkhjkr0000gp/T/jetty-docbase.4911291818189187744.8081/, jar:file:/Users/akshayas/m2/repository/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-01-07 20:56:51,116 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 94931 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-07 20:56:51,120 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-07 20:56:51,121 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-07 20:56:52,110 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-07 20:56:52,198 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 79ms. Found 3 repository interfaces.
+2020-01-07 20:56:52,625 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$127aa28f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 20:56:52,665 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$ab286ac9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 20:56:52,671 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 20:56:52,673 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@64f981e2' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 20:56:52,676 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$cffd0d7b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 20:56:52,681 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 20:56:52,912 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @2893ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-07 20:56:53,008 INFO org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory [main] Server initialized with port: 8081
+2020-01-07 20:56:53,011 INFO org.eclipse.jetty.server.Server [main] jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_144-b01
+2020-01-07 20:56:53,043 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [main] Initializing Spring embedded WebApplicationContext
+2020-01-07 20:56:53,043 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1861 ms
+2020-01-07 20:56:53,399 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-01-07 20:56:53,517 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-01-07 20:56:53,569 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-01-07 20:56:53,632 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.12.Final}
+2020-01-07 20:56:53,634 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2020-01-07 20:56:53,765 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-01-07 20:56:53,918 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2020-01-07 20:56:53,938 INFO org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2020-01-07 20:56:53,943 INFO org.hibernate.type.BasicTypeRegistry [main] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@709d86a2
+2020-01-07 20:56:54,768 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-07 20:56:55,407 INFO org.eclipse.jetty.server.session.DefaultSessionIdManager [main] DefaultSessionIdManager workerName=node0
+2020-01-07 20:56:55,407 INFO org.eclipse.jetty.server.session.DefaultSessionIdManager [main] No SessionScavenger set, using defaults
+2020-01-07 20:56:55,409 INFO org.eclipse.jetty.server.session.HouseKeeper [main] node0 Scavenging every 660000ms
+2020-01-07 20:56:55,418 INFO org.eclipse.jetty.server.handler.ContextHandler [main] Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@68af8288{application,/,[file:///private/var/folders/jm/6wbg86m14ls3y573xtjkhjkr0000gp/T/jetty-docbase.4449441892176438592.8081/, jar:file:/Users/akshayas/m2/repository/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-01-07 20:56:55,419 INFO org.eclipse.jetty.server.Server [main] Started @5399ms
+2020-01-07 20:56:55,773 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-07 20:56:56,129 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-01-07 20:56:56,136 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-07 20:56:56,159 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 23 ms
+2020-01-07 20:56:56,377 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@18f794e, org.springframework.security.web.context.SecurityContextPersistenceFilter@307e9c02, org.springframework.security.web.header.HeaderWriterFilter@20e7152a, org.springframework.web.filter.CorsFilter@389a9ff6, org.springframework.security.web.authentication.logout.LogoutFilter@47629063, com.marvel.gps.security.jwt.JWTAuthTokenFilter@5adc71e7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6bc08a77, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79735611, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15af06f, org.springframework.security.web.session.SessionManagementFilter@951461a, org.springframework.security.web.access.ExceptionTranslationFilter@1c80f8dd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6bc8d8bd]
+2020-01-07 20:56:56,560 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 20:56:56,866 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2020-01-07 20:56:56,891 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2020-01-07 20:56:56,929 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2020-01-07 20:56:57,145 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-07 20:56:57,149 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [main] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-07 20:56:57,150 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet 'dispatcherServlet'
+2020-01-07 20:56:57,161 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 11 ms
+2020-01-07 20:56:57,210 INFO org.eclipse.jetty.server.AbstractConnector [main] Started ServerConnector@1a464fa3{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2020-01-07 20:56:57,212 INFO org.springframework.boot.web.embedded.jetty.JettyWebServer [main] Jetty started on port(s) 8081 (http/1.1) with context path '/'
+2020-01-07 20:56:57,214 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 6.675 seconds (JVM running for 7.195)
+2020-01-07 20:57:03,494 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [qtp848343462-23] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-07 20:59:09,641 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-12] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-07 20:59:09,647 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-12] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-07 20:59:09,648 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-1 - Shutdown initiated...
+2020-01-07 20:59:09,651 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-1 - Shutdown completed.
+2020-01-07 20:59:09,659 INFO org.eclipse.jetty.server.AbstractConnector [Thread-12] Stopped ServerConnector@1a464fa3{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2020-01-07 20:59:09,659 INFO org.eclipse.jetty.server.session.HouseKeeper [Thread-12] node0 Stopped scavenging
+2020-01-07 20:59:09,661 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [Thread-12] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-01-07 20:59:09,662 INFO org.eclipse.jetty.server.handler.ContextHandler [Thread-12] Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@68af8288{application,/,[file:///private/var/folders/jm/6wbg86m14ls3y573xtjkhjkr0000gp/T/jetty-docbase.4449441892176438592.8081/, jar:file:/Users/akshayas/m2/repository/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-01-07 20:59:13,553 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 94964 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-07 20:59:13,557 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-07 20:59:13,558 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-07 20:59:14,646 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-07 20:59:14,741 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 85ms. Found 3 repository interfaces.
+2020-01-07 20:59:15,173 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7fd33fa1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 20:59:15,212 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$188107db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 20:59:15,219 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 20:59:15,221 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2b0b7e5a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 20:59:15,225 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$3d55aa8d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 20:59:15,230 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 20:59:15,476 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @2917ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-01-07 20:59:15,584 INFO org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory [main] Server initialized with port: 8081
+2020-01-07 20:59:15,587 INFO org.eclipse.jetty.server.Server [main] jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_144-b01
+2020-01-07 20:59:15,624 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [main] Initializing Spring embedded WebApplicationContext
+2020-01-07 20:59:15,625 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2004 ms
+2020-01-07 20:59:15,989 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-01-07 20:59:16,106 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-01-07 20:59:16,164 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-01-07 20:59:16,231 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.12.Final}
+2020-01-07 20:59:16,234 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2020-01-07 20:59:16,369 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-01-07 20:59:16,534 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2020-01-07 20:59:16,555 INFO org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2020-01-07 20:59:16,562 INFO org.hibernate.type.BasicTypeRegistry [main] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@674184d
+2020-01-07 20:59:17,399 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-07 20:59:18,011 INFO org.eclipse.jetty.server.session.DefaultSessionIdManager [main] DefaultSessionIdManager workerName=node0
+2020-01-07 20:59:18,014 INFO org.eclipse.jetty.server.session.DefaultSessionIdManager [main] No SessionScavenger set, using defaults
+2020-01-07 20:59:18,015 INFO org.eclipse.jetty.server.session.HouseKeeper [main] node0 Scavenging every 600000ms
+2020-01-07 20:59:18,025 INFO org.eclipse.jetty.server.handler.ContextHandler [main] Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@3a012678{application,/,[file:///private/var/folders/jm/6wbg86m14ls3y573xtjkhjkr0000gp/T/jetty-docbase.5240118290253136859.8081/, jar:file:/Users/akshayas/m2/repository/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2020-01-07 20:59:18,026 INFO org.eclipse.jetty.server.Server [main] Started @5467ms
+2020-01-07 20:59:18,420 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-07 20:59:18,765 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-01-07 20:59:18,772 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-07 20:59:18,793 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 20 ms
+2020-01-07 20:59:18,995 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f0e7008, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f05d08c, org.springframework.security.web.header.HeaderWriterFilter@10664c3d, org.springframework.web.filter.CorsFilter@307e9c02, org.springframework.security.web.authentication.logout.LogoutFilter@17e4beda, com.marvel.gps.security.jwt.JWTAuthTokenFilter@75c589f2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@71842e18, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@451f3f66, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@682270ff, org.springframework.security.web.session.SessionManagementFilter@272f5373, org.springframework.security.web.access.ExceptionTranslationFilter@5cca5ff3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1677f98b]
+2020-01-07 20:59:19,172 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-07 20:59:19,448 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2020-01-07 20:59:19,472 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2020-01-07 20:59:19,508 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2020-01-07 20:59:19,727 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-07 20:59:19,732 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [main] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-07 20:59:19,732 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet 'dispatcherServlet'
+2020-01-07 20:59:19,746 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 14 ms
+2020-01-07 20:59:19,789 INFO org.eclipse.jetty.server.AbstractConnector [main] Started ServerConnector@4ed15347{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2020-01-07 20:59:19,791 INFO org.springframework.boot.web.embedded.jetty.JettyWebServer [main] Jetty started on port(s) 8081 (http/1.1) with context path '/'
+2020-01-07 20:59:19,793 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 6.733 seconds (JVM running for 7.234)
+2020-01-07 20:59:24,773 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [qtp1141984159-23] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-07 21:00:07,351 INFO com.marvel.gps.util.LoggingUtil [qtp1141984159-18] VM Provision request received for user: akshaya.sharma@sap.com
+2020-01-07 21:00:07,354 INFO com.marvel.gps.util.LoggingUtil [qtp1141984159-18] Retrieving user based on userName: akshaya.sharma@sap.com
+2020-01-07 21:00:07,358 INFO com.marvel.gps.util.LoggingUtil [qtp1141984159-18] Retrieving user based on userName: akshaya.sharma@sap.com successful
+2020-01-07 21:00:07,463 INFO com.marvel.gps.util.LoggingUtil [qtp1141984159-18] Saved VM successfully for user: akshaya.sharma@sap.com, with following specifications.  OS: MAC OS, RAM: 28, Hard Disk: 192, cpuCore: 8
+2020-01-07 21:19:17,135 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m30s887ms).
+2020-01-07 23:43:20,469 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h23m33s305ms).
+2020-01-07 23:49:56,538 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-12] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-07 23:49:56,546 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-12] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-07 23:49:56,559 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-1 - Shutdown initiated...
+2020-01-07 23:49:56,575 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-1 - Shutdown completed.
+2020-01-07 23:49:56,599 INFO org.eclipse.jetty.server.AbstractConnector [Thread-12] Stopped ServerConnector@4ed15347{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2020-01-07 23:49:56,599 INFO org.eclipse.jetty.server.session.HouseKeeper [Thread-12] node0 Stopped scavenging
+2020-01-07 23:49:56,609 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [Thread-12] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-01-07 23:49:56,613 INFO org.eclipse.jetty.server.handler.ContextHandler [Thread-12] Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@3a012678{application,/,[file:///private/var/folders/jm/6wbg86m14ls3y573xtjkhjkr0000gp/T/jetty-docbase.5240118290253136859.8081/, jar:file:/Users/akshayas/m2/repository/io/springfox/springfox-swagger-ui/2.7.0/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2020-01-07 23:50:00,484 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 95197 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-07 23:50:00,488 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-07 23:50:00,488 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-07 23:50:06,721 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-07 23:50:06,748 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 27 ms
+2020-01-07 23:50:07,808 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-07 23:50:07,899 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 8.221 seconds (JVM running for 8.85)
+2020-01-07 23:51:17,806 ERROR com.marvel.gps.security.jwt.JWTProvider [qtp1398428044-23] Expired JWT token -> Message: {}
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2020-01-07T23:33:12Z. Current time: 2020-01-07T23:51:17Z, a difference of 1085803 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.marvel.gps.security.jwt.JWTProvider.validateJwtToken(JWTProvider.java:45)
+	at com.marvel.gps.security.jwt.JWTAuthTokenFilter.doFilterInternal(JWTAuthTokenFilter.java:31)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:97)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1711)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1347)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1678)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1249)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:781)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:917)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-07 23:51:17,826 ERROR com.marvel.gps.util.LoggingUtil [qtp1398428044-23] Unauthorized error. Message - Unauthorized
+2020-01-07 23:52:25,451 ERROR com.marvel.gps.security.jwt.JWTProvider [qtp1398428044-21] Expired JWT token -> Message: {}
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2020-01-07T23:33:12Z. Current time: 2020-01-07T23:52:25Z, a difference of 1153451 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.marvel.gps.security.jwt.JWTProvider.validateJwtToken(JWTProvider.java:45)
+	at com.marvel.gps.security.jwt.JWTAuthTokenFilter.doFilterInternal(JWTAuthTokenFilter.java:31)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:97)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1711)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1347)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1678)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1249)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:781)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:917)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-07 23:53:41,471 ERROR com.marvel.gps.util.LoggingUtil [qtp1398428044-21] Unauthorized error. Message - Unauthorized
+2020-01-07 23:54:07,727 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 95325 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-07 23:54:07,736 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-07 23:54:07,737 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-07 23:54:12,851 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-07 23:54:12,874 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 22 ms
+2020-01-07 23:54:13,820 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-07 23:54:13,900 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 6.727 seconds (JVM running for 7.246)
+2020-01-07 23:54:19,831 ERROR com.marvel.gps.security.jwt.JWTProvider [qtp1874901958-23] Expired JWT token -> Message: {}
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2020-01-07T23:33:12Z. Current time: 2020-01-07T23:54:19Z, a difference of 1267828 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.marvel.gps.security.jwt.JWTProvider.validateJwtToken(JWTProvider.java:45)
+	at com.marvel.gps.security.jwt.JWTAuthTokenFilter.doFilterInternal(JWTAuthTokenFilter.java:31)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:97)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1711)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1347)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1678)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1249)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:781)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:917)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-07 23:54:25,267 ERROR com.marvel.gps.util.LoggingUtil [qtp1874901958-23] Unauthorized error. Message - Unauthorized

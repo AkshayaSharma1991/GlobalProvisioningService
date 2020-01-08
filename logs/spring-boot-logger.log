@@ -1,0 +1,554 @@
+2020-01-08 00:00:28,962 ERROR com.marvel.gps.security.jwt.JWTProvider [qtp1874901958-23] Expired JWT token -> Message: {}
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2020-01-07T23:33:12Z. Current time: 2020-01-08T00:00:28Z, a difference of 1636961 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.marvel.gps.security.jwt.JWTProvider.validateJwtToken(JWTProvider.java:45)
+	at com.marvel.gps.security.jwt.JWTAuthTokenFilter.doFilterInternal(JWTAuthTokenFilter.java:31)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:97)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1711)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1347)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1678)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1249)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:781)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:917)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-08 00:00:33,381 ERROR com.marvel.gps.util.LoggingUtil [qtp1874901958-23] Unauthorized error. Message - Unauthorized
+2020-01-08 00:06:28,301 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 95462 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 00:06:28,305 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 00:06:28,306 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 00:06:33,689 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 00:06:33,715 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 25 ms
+2020-01-08 00:06:34,824 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 00:06:34,899 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 7.231 seconds (JVM running for 7.79)
+2020-01-08 00:06:52,874 ERROR com.marvel.gps.security.jwt.JWTProvider [qtp1893169190-23] Expired JWT token -> Message: JWT expired at 2020-01-07T23:33:12Z. Current time: 2020-01-08T00:06:52Z, a difference of 2020871 milliseconds.  Allowed clock skew: 0 milliseconds. 
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2020-01-07T23:33:12Z. Current time: 2020-01-08T00:06:52Z, a difference of 2020871 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.marvel.gps.security.jwt.JWTProvider.validateJwtToken(JWTProvider.java:46)
+	at com.marvel.gps.security.jwt.JWTAuthTokenFilter.doFilterInternal(JWTAuthTokenFilter.java:31)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:97)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1711)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1347)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1678)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1249)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:781)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:917)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-08 00:06:52,891 ERROR com.marvel.gps.util.LoggingUtil [qtp1893169190-23] Unauthorized error. Message - Unauthorized
+2020-01-08 00:09:00,021 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 95492 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 00:09:00,024 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 00:09:00,025 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 00:09:05,065 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 00:09:05,084 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 19 ms
+2020-01-08 00:09:05,926 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 00:09:05,987 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 6.535 seconds (JVM running for 7.01)
+2020-01-08 00:09:11,157 ERROR com.marvel.gps.security.jwt.JWTProvider [qtp299684908-23] Expired JWT token -> Message: JWT expired at 2020-01-07T23:33:12Z. Current time: 2020-01-08T00:09:11Z, a difference of 2159154 milliseconds.  Allowed clock skew: 0 milliseconds. 
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2020-01-07T23:33:12Z. Current time: 2020-01-08T00:09:11Z, a difference of 2159154 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.marvel.gps.security.jwt.JWTProvider.validateJwtToken(JWTProvider.java:46)
+	at com.marvel.gps.security.jwt.JWTAuthTokenFilter.doFilterInternal(JWTAuthTokenFilter.java:31)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:97)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1711)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1347)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1678)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1249)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:781)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:917)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-08 00:09:11,173 ERROR com.marvel.gps.util.LoggingUtil [qtp299684908-23] Unauthorized error. Message - Unauthorized
+2020-01-08 00:09:32,496 ERROR com.marvel.gps.security.jwt.JWTProvider [qtp299684908-17] Expired JWT token -> Message: JWT expired at 2020-01-07T23:33:12Z. Current time: 2020-01-08T00:09:32Z, a difference of 2180496 milliseconds.  Allowed clock skew: 0 milliseconds. 
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2020-01-07T23:33:12Z. Current time: 2020-01-08T00:09:32Z, a difference of 2180496 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.marvel.gps.security.jwt.JWTProvider.validateJwtToken(JWTProvider.java:46)
+	at com.marvel.gps.security.jwt.JWTAuthTokenFilter.doFilterInternal(JWTAuthTokenFilter.java:31)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:97)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1711)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1347)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1678)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1249)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:132)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:781)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:917)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-08 00:09:32,926 ERROR com.marvel.gps.util.LoggingUtil [qtp299684908-17] Unauthorized error. Message - Unauthorized
+2020-01-08 00:11:03,775 ERROR com.marvel.gps.util.LoggingUtil [qtp299684908-17] Unauthorized error. Message - Unauthorized
+2020-01-08 00:17:24,296 ERROR com.marvel.gps.util.LoggingUtil [qtp299684908-23] Unauthorized error. Message - Unauthorized
+2020-01-08 00:19:16,035 ERROR com.marvel.gps.util.LoggingUtil [qtp299684908-22] Unauthorized error. Message - Unauthorized
+2020-01-08 00:21:38,543 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 95727 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 00:21:38,547 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 00:21:38,548 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 00:21:43,524 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 00:21:43,545 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 21 ms
+2020-01-08 00:21:44,525 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 00:21:44,612 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 6.621 seconds (JVM running for 7.166)
+2020-01-08 00:21:54,654 INFO com.marvel.gps.util.LoggingUtil [qtp970890202-23] Generating JWT token for user: akshayas
+2020-01-08 00:25:11,172 ERROR com.marvel.gps.util.LoggingUtil [qtp970890202-23] Unauthorized error. Message - Unauthorized
+2020-01-08 00:25:18,286 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 95782 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 00:25:18,291 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 00:25:18,292 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 00:25:23,633 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 00:25:23,660 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 26 ms
+2020-01-08 00:25:24,622 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 00:25:24,706 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 7.05 seconds (JVM running for 7.577)
+2020-01-08 00:25:28,044 INFO com.marvel.gps.util.LoggingUtil [qtp1771084820-23] Generating JWT token for user: akshayas
+2020-01-08 00:25:28,330 ERROR com.marvel.gps.util.LoggingUtil [qtp1771084820-23] Unauthorized error. Message - Unauthorized
+2020-01-08 00:25:47,063 INFO com.marvel.gps.util.LoggingUtil [qtp1771084820-18] Generating JWT token for user: akshaya.sharma@sap.com
+2020-01-08 00:25:54,776 INFO com.marvel.gps.util.LoggingUtil [qtp1771084820-22] Generating JWT token for user: akshaya.sharma@sap.com
+2020-01-08 00:25:54,863 ERROR com.marvel.gps.util.LoggingUtil [qtp1771084820-22] Unauthorized error. Message - Unauthorized
+2020-01-08 00:26:10,530 INFO com.marvel.gps.util.LoggingUtil [qtp1771084820-23] Generating JWT token for user: akshaya.sharma@sap.com1
+2020-01-08 00:26:10,533 ERROR com.marvel.gps.util.LoggingUtil [qtp1771084820-23] Unauthorized error. Message - Unauthorized
+2020-01-08 00:26:37,216 INFO com.marvel.gps.util.LoggingUtil [qtp1771084820-19] Generating JWT token for user: akshaya.sharma@sap.com
+2020-01-08 00:32:13,540 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 95863 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 00:32:13,544 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 00:32:13,545 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 00:32:19,147 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 00:32:19,169 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 22 ms
+2020-01-08 00:32:20,246 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 00:32:20,334 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 7.566 seconds (JVM running for 8.116)
+2020-01-08 01:17:36,211 INFO com.marvel.gps.util.LoggingUtil [qtp993208674-18] Generating JWT token for user: JohnDoe
+2020-01-08 01:43:21,416 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 96796 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 01:43:21,419 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 01:43:21,420 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 01:43:26,491 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 01:43:26,512 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 20 ms
+2020-01-08 01:43:27,479 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 01:43:27,560 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 6.706 seconds (JVM running for 7.256)
+2020-01-08 01:43:44,114 INFO com.marvel.gps.util.LoggingUtil [qtp201484047-23] Request received for deleting user: ashish
+2020-01-08 01:44:35,563 INFO com.marvel.gps.util.LoggingUtil [qtp201484047-18] Request received for deleting user: ashish
+2020-01-08 01:45:27,178 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 96835 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 01:45:27,183 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 01:45:27,183 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 01:45:35,602 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 01:45:35,631 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 29 ms
+2020-01-08 01:45:36,913 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 01:45:37,008 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 10.446 seconds (JVM running for 11.037)
+2020-01-08 01:45:49,085 INFO com.marvel.gps.util.LoggingUtil [qtp1246810186-20] Request received for deleting user: ashish
+2020-01-08 01:48:37,861 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 96878 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 01:48:37,866 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 01:48:37,867 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 01:48:43,308 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 01:48:43,328 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 20 ms
+2020-01-08 01:48:44,274 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 01:48:44,348 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 7.106 seconds (JVM running for 7.617)
+2020-01-08 01:48:52,873 INFO com.marvel.gps.util.LoggingUtil [qtp2139431292-23] Request received for deleting user: ashish
+2020-01-08 01:49:15,711 INFO com.marvel.gps.util.LoggingUtil [qtp2139431292-18] Request received for deleting user: 123
+2020-01-08 01:49:21,492 INFO com.marvel.gps.util.LoggingUtil [qtp2139431292-22] Request received for deleting user: null
+2020-01-08 02:20:42,969 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 97243 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 02:20:42,973 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 02:20:42,974 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 02:20:48,181 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 02:20:48,202 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 20 ms
+2020-01-08 02:20:49,124 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 02:20:49,203 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 6.79 seconds (JVM running for 7.307)
+2020-01-08 02:21:06,599 INFO com.marvel.gps.util.LoggingUtil [qtp1933329999-23] Request received to list VM for user: ASHISH
+2020-01-08 02:21:06,605 ERROR com.marvel.gps.util.LoggingUtil [qtp1933329999-23] VM List fetch failed for user: ASHISH
+2020-01-08 02:23:30,473 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 97280 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 02:23:30,481 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 02:23:30,482 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 02:23:36,563 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 02:23:36,585 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 20 ms
+2020-01-08 02:23:37,462 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 02:23:37,533 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 7.919 seconds (JVM running for 8.474)
+2020-01-08 02:23:49,288 INFO com.marvel.gps.util.LoggingUtil [qtp1610853733-23] Request received to list VM for user: ASHISH
+2020-01-08 02:23:49,291 ERROR com.marvel.gps.util.LoggingUtil [qtp1610853733-23] VM List fetch failed for user: ASHISH
+2020-01-08 02:24:37,770 INFO com.marvel.gps.util.LoggingUtil [qtp1610853733-18] Request received to list VM for user: ASHISH
+2020-01-08 02:24:37,773 ERROR com.marvel.gps.util.LoggingUtil [qtp1610853733-18] VM List fetch failed for user: ASHISH
+2020-01-08 02:24:46,653 INFO com.marvel.gps.util.LoggingUtil [qtp1610853733-21] Request received to list VM for user: ASHISH
+2020-01-08 02:26:16,322 ERROR com.marvel.gps.util.LoggingUtil [qtp1610853733-21] VM List fetch failed for user: ASHISH
+2020-01-08 02:26:22,513 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 97325 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 02:26:22,516 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 02:26:22,517 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 02:26:27,575 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 02:26:27,595 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 20 ms
+2020-01-08 02:26:28,602 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 02:26:28,680 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 6.702 seconds (JVM running for 7.203)
+2020-01-08 02:27:15,494 INFO com.marvel.gps.util.LoggingUtil [qtp2137205195-23] Request received to list VM for user: ASHISH
+2020-01-08 02:27:19,250 ERROR com.marvel.gps.util.LoggingUtil [qtp2137205195-23] VM List fetch failed for user: ASHISH
+2020-01-08 02:27:42,703 INFO com.marvel.gps.util.LoggingUtil [qtp2137205195-17] VM List based on RAM received successfully
+2020-01-08 02:35:26,244 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 97508 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 02:35:26,249 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 02:35:26,249 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 02:35:31,587 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 02:35:31,611 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 23 ms
+2020-01-08 02:35:32,559 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 02:35:32,629 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 7.035 seconds (JVM running for 7.592)
+2020-01-08 02:35:49,312 INFO com.marvel.gps.util.LoggingUtil [qtp370356001-23] VM List based on RAM received successfully
+2020-01-08 02:36:31,972 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 97528 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 02:36:31,976 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 02:36:31,977 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 02:36:37,207 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 02:36:37,230 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 22 ms
+2020-01-08 02:36:38,206 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 02:36:38,279 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 6.897 seconds (JVM running for 7.411)
+2020-01-08 02:36:45,527 INFO com.marvel.gps.util.LoggingUtil [qtp552260985-23] VM List based on RAM received successfully
+2020-01-08 02:40:44,890 INFO com.marvel.gps.util.LoggingUtil [qtp552260985-32] Checking if username is already registered.  User Name JaneDoe
+2020-01-08 02:40:44,899 INFO com.marvel.gps.util.LoggingUtil [qtp552260985-32] Checking if email is already registered.  Email Id: janeDoe@gmail.com
+2020-01-08 02:40:44,908 INFO com.marvel.gps.util.LoggingUtil [qtp552260985-32] Checking if mobile number is already registered.  Mobile No: 3423423545
+2020-01-08 02:40:44,913 INFO com.marvel.gps.util.LoggingUtil [qtp552260985-32] User does not exist in the system.  Creating user: JaneDoe
+2020-01-08 02:40:45,117 INFO com.marvel.gps.util.LoggingUtil [qtp552260985-32] User creation successful.  Id: 7
+2020-01-08 02:42:53,526 INFO com.marvel.gps.util.LoggingUtil [qtp552260985-22] Generating JWT token for user: JaneDoe
+2020-01-08 02:44:34,407 ERROR com.marvel.gps.util.LoggingUtil [qtp552260985-23] Unauthorized error. Message - Unauthorized
+2020-01-08 02:45:44,256 ERROR com.marvel.gps.util.LoggingUtil [qtp552260985-22] Unauthorized error. Message - Unauthorized
+2020-01-08 02:48:30,543 INFO com.marvel.gps.util.LoggingUtil [qtp552260985-23] Generating JWT token for user: JaneDoe
+2020-01-08 08:26:20,781 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 98140 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 08:26:20,786 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 08:26:20,787 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 08:26:28,325 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 08:26:28,351 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 25 ms
+2020-01-08 08:26:29,478 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 08:26:29,573 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 9.431 seconds (JVM running for 9.965)
+2020-01-08 08:26:42,459 ERROR com.marvel.gps.security.jwt.JWTProvider [qtp1106510750-22] Expired JWT token -> Message: JWT expired at 2020-01-08T05:35:10Z. Current time: 2020-01-08T08:26:42Z, a difference of 10292458 milliseconds.  Allowed clock skew: 0 milliseconds. 
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2020-01-08T05:35:10Z. Current time: 2020-01-08T08:26:42Z, a difference of 10292458 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.marvel.gps.security.jwt.JWTProvider.validateJwtToken(JWTProvider.java:46)
+	at com.marvel.gps.security.jwt.JWTAuthTokenFilter.doFilterInternal(JWTAuthTokenFilter.java:31)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:97)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1711)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1347)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1678)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1249)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:781)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:917)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-08 08:26:42,475 ERROR com.marvel.gps.util.LoggingUtil [qtp1106510750-22] Unauthorized error. Message - Unauthorized
+2020-01-08 08:26:53,707 INFO com.marvel.gps.util.LoggingUtil [qtp1106510750-18] Generating JWT token for user: JaneDoe
+2020-01-08 08:33:57,250 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 98226 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 08:33:57,254 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 08:33:57,255 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 08:34:02,566 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 08:34:02,589 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 22 ms
+2020-01-08 08:34:03,657 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 08:34:03,753 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 7.104 seconds (JVM running for 7.635)
+2020-01-08 08:35:16,259 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 98247 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 08:35:16,263 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 08:35:16,264 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 08:35:21,341 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 08:35:21,362 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 20 ms
+2020-01-08 08:35:22,307 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 08:35:22,394 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 6.702 seconds (JVM running for 7.219)
+2020-01-08 08:35:54,978 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 98262 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 08:35:54,982 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 08:35:54,983 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 08:36:00,370 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 08:36:00,391 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 21 ms
+2020-01-08 08:36:01,225 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 08:36:01,287 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 6.898 seconds (JVM running for 7.384)
+2020-01-08 08:39:46,427 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 98362 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 08:39:46,431 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 08:39:46,432 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 08:39:51,653 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 08:39:51,674 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 20 ms
+2020-01-08 08:39:52,717 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 08:39:52,832 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 6.958 seconds (JVM running for 7.5)
+2020-01-08 08:54:15,992 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 98627 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 08:54:15,998 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 08:54:15,999 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 08:54:22,582 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 08:54:22,613 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 24 ms
+2020-01-08 08:54:23,670 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 08:54:23,780 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 8.474 seconds (JVM running for 9.082)
+2020-01-08 09:00:32,576 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 98744 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 09:00:32,580 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 09:00:32,581 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 09:00:38,085 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 09:00:38,106 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 20 ms
+2020-01-08 09:00:39,331 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 09:00:39,410 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 7.455 seconds (JVM running for 7.983)
+2020-01-08 09:03:33,792 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 98783 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 09:03:33,796 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 09:03:33,797 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 09:03:39,394 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 09:03:39,414 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 19 ms
+2020-01-08 09:03:40,395 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 09:03:40,471 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 7.323 seconds (JVM running for 7.833)
+2020-01-08 09:08:58,198 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 98862 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 09:08:58,202 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 09:08:58,203 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 09:09:03,946 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 09:09:03,968 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 21 ms
+2020-01-08 09:09:05,062 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 09:09:05,156 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 7.506 seconds (JVM running for 8.002)
+2020-01-08 09:11:19,958 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 98892 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 09:11:19,963 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 09:11:19,964 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 09:11:25,143 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 09:11:25,161 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 18 ms
+2020-01-08 09:11:26,104 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 09:11:26,173 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 6.816 seconds (JVM running for 7.325)
+2020-01-08 09:12:28,817 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 98925 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 09:12:28,822 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 09:12:28,824 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 09:12:34,604 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 09:12:34,632 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 27 ms
+2020-01-08 09:12:35,752 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 09:12:35,838 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 7.721 seconds (JVM running for 8.254)
+2020-01-08 09:18:46,217 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication on C02V400GHTD6 with PID 99005 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/classes started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2020-01-08 09:18:46,222 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2020-01-08 09:18:46,223 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-08 09:18:51,565 DEBUG com.marvel.gps.SwaggerConfig [main] Starting Swagger with JWT
+2020-01-08 09:18:51,595 DEBUG com.marvel.gps.SwaggerConfig [main] Started Swagger with JWT in 29 ms
+2020-01-08 09:18:52,803 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2020-01-08 09:18:52,911 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 7.271 seconds (JVM running for 7.797)
+2020-01-08 09:19:47,876 INFO com.marvel.gps.util.LoggingUtil [qtp273531298-16] VM Provision request received for user: JaneDoe
+2020-01-08 09:19:47,877 INFO com.marvel.gps.util.LoggingUtil [qtp273531298-16] Retrieving user based on userName: JaneDoe
+2020-01-08 09:19:47,882 INFO com.marvel.gps.util.LoggingUtil [qtp273531298-16] Retrieving user based on userName: JaneDoe successful
+2020-01-08 09:19:47,991 INFO com.marvel.gps.util.LoggingUtil [qtp273531298-16] Saved VM successfully for user: JaneDoe, with following specifications.  OS: Linux, RAM: 32, Hard Disk: 128, cpuCore: 4
+2020-01-08 09:19:47,993 INFO com.marvel.gps.util.LoggingUtil [qtp273531298-16] VM Provision successfully completed for user: JaneDoe
+2020-01-08 09:21:21,742 INFO com.marvel.gps.util.LoggingUtil [qtp273531298-23] Generating JWT token for user: JaneDoe
+2020-01-08 09:22:37,833 INFO com.marvel.gps.util.LoggingUtil [qtp273531298-23] Generating JWT token for user: JohnDoe
+2020-01-08 09:23:01,468 INFO com.marvel.gps.util.LoggingUtil [qtp273531298-22] Request received to list VM for user: JaneDoe
+2020-01-08 09:23:01,487 INFO com.marvel.gps.util.LoggingUtil [qtp273531298-22] VM List received successfully for user: JaneDoe
+2020-01-08 09:24:48,291 INFO com.marvel.gps.util.LoggingUtil [qtp273531298-33] VM List based on RAM received successfully
+2020-01-08 09:26:29,026 INFO com.marvel.gps.util.LoggingUtil [qtp273531298-22] Request received to list VM based on RAM for user: JohnDoe
+2020-01-08 09:26:29,035 INFO com.marvel.gps.util.LoggingUtil [qtp273531298-22] VM List based on RAM received successfully for user: JohnDoe

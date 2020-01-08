@@ -1,0 +1,997 @@
+2019-12-28 01:48:20,841 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h7m23s313ms).
+2019-12-28 08:00:03,622 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h11m42s738ms).
+2019-12-28 11:13:45,552 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h13m41s977ms).
+2019-12-28 11:28:45,365 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-12] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-28 11:28:45,371 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-12] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 11:28:45,379 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-1 - Shutdown initiated...
+2019-12-28 11:28:45,383 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-1 - Shutdown completed.
+2019-12-28 11:28:45,403 INFO org.eclipse.jetty.server.AbstractConnector [Thread-12] Stopped ServerConnector@6d3a388c{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2019-12-28 11:28:45,403 INFO org.eclipse.jetty.server.session.HouseKeeper [Thread-12] node0 Stopped scavenging
+2019-12-28 11:28:45,414 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [Thread-12] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2019-12-28 11:28:45,417 INFO org.eclipse.jetty.server.handler.ContextHandler [Thread-12] Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@66ac5762{application,/,[file:///private/var/folders/jm/6wbg86m14ls3y573xtjkhjkr0000gp/T/jetty-docbase.8030368603404198812.8081/, jar:file:/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/global-provisioning-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2019-12-28 11:29:22,178 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication v0.0.1-SNAPSHOT on C02V400GHTD6 with PID 34525 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/global-provisioning-0.0.1-SNAPSHOT.jar started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2019-12-28 11:29:22,181 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-12-28 11:29:22,182 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-28 11:29:23,533 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-28 11:29:23,606 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 65ms. Found 2 repository interfaces.
+2019-12-28 11:29:24,012 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$81589460] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:29:24,062 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$1a065c9a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:29:24,068 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:29:24,071 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@37f1104d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:29:24,074 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$3edaff4c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:29:24,080 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:29:24,309 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @3110ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-12-28 11:29:24,425 INFO org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory [main] Server initialized with port: 8081
+2019-12-28 11:29:24,428 INFO org.eclipse.jetty.server.Server [main] jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_144-b01
+2019-12-28 11:29:24,467 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [main] Initializing Spring embedded WebApplicationContext
+2019-12-28 11:29:24,468 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2228 ms
+2019-12-28 11:29:24,774 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-12-28 11:29:24,994 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-12-28 11:29:25,041 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-28 11:29:25,111 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.12.Final}
+2019-12-28 11:29:25,114 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-12-28 11:29:25,246 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-28 11:29:25,427 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2019-12-28 11:29:25,442 INFO org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2019-12-28 11:29:25,447 INFO org.hibernate.type.BasicTypeRegistry [main] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@13526e59
+2019-12-28 11:29:26,065 WARN org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl [main] GenerationTarget encountered exception accepting command : Error executing DDL "alter table uservmprovision drop constraint if exists FK687lok1s1f9qf2c3k6l41vmc9" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table uservmprovision drop constraint if exists FK687lok1s1f9qf2c3k6l41vmc9" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:144)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:303)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:110)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:662)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:479)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:346)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:131)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1681)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1433)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1255)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1255)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:392)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:253)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:227)
+	at org.springframework.boot.web.embedded.jetty.ServletContextInitializerConfiguration.callInitializers(ServletContextInitializerConfiguration.java:65)
+	at org.springframework.boot.web.embedded.jetty.ServletContextInitializerConfiguration.configure(ServletContextInitializerConfiguration.java:54)
+	at org.eclipse.jetty.webapp.WebAppContext.configure(WebAppContext.java:517)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1454)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:854)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:278)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:545)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:167)
+	at org.eclipse.jetty.server.Server.start(Server.java:418)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:382)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.springframework.boot.web.embedded.jetty.JettyWebServer.initialize(JettyWebServer.java:108)
+	at org.springframework.boot.web.embedded.jetty.JettyWebServer.<init>(JettyWebServer.java:86)
+	at org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory.getJettyWebServer(JettyServletWebServerFactory.java:398)
+	at org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory.getWebServer(JettyServletWebServerFactory.java:153)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.marvel.gps.GlobalProvisioningServiceApplication.main(GlobalProvisioningServiceApplication.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:51)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:52)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "uservmprovision" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2497)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2233)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:310)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:446)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:370)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:311)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:297)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:274)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:269)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 121 common frames omitted
+2019-12-28 11:29:26,093 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2019-12-28 11:29:26,094 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] table "cpucore_types" does not exist, skipping
+2019-12-28 11:29:26,122 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2019-12-28 11:29:26,123 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] table "hard_disk_types" does not exist, skipping
+2019-12-28 11:29:26,123 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2019-12-28 11:29:26,124 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] table "os_types" does not exist, skipping
+2019-12-28 11:29:26,124 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2019-12-28 11:29:26,125 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] table "ram_types" does not exist, skipping
+2019-12-28 11:29:26,129 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2019-12-28 11:29:26,129 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler [main] table "uservmprovision" does not exist, skipping
+2019-12-28 11:29:26,185 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@6b88ca8c'
+2019-12-28 11:29:26,188 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 11:29:26,653 INFO org.eclipse.jetty.server.session.DefaultSessionIdManager [main] DefaultSessionIdManager workerName=node0
+2019-12-28 11:29:26,653 INFO org.eclipse.jetty.server.session.DefaultSessionIdManager [main] No SessionScavenger set, using defaults
+2019-12-28 11:29:26,655 INFO org.eclipse.jetty.server.session.HouseKeeper [main] node0 Scavenging every 660000ms
+2019-12-28 11:29:26,664 INFO org.eclipse.jetty.server.handler.ContextHandler [main] Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@2b0f373b{application,/,[file:///private/var/folders/jm/6wbg86m14ls3y573xtjkhjkr0000gp/T/jetty-docbase.7804750101732495650.8081/, jar:file:/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/global-provisioning-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2019-12-28 11:29:26,665 INFO org.eclipse.jetty.server.Server [main] Started @5468ms
+2019-12-28 11:29:26,913 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-28 11:29:27,043 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-28 11:29:27,759 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@546ccad7, org.springframework.security.web.context.SecurityContextPersistenceFilter@13e3c1c7, org.springframework.security.web.header.HeaderWriterFilter@3dddefd8, org.springframework.web.filter.CorsFilter@5357c287, org.springframework.security.web.authentication.logout.LogoutFilter@1d8062d2, com.marvel.gps.security.jwt.JWTAuthTokenFilter@4a194c39, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3f053c80, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b40ceb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1623134f, org.springframework.security.web.session.SessionManagementFilter@12bfd80d, org.springframework.security.web.access.ExceptionTranslationFilter@2b95e48b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5ce33a58]
+2019-12-28 11:29:27,941 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-28 11:29:28,192 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2019-12-28 11:29:28,222 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2019-12-28 11:29:28,279 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2019-12-28 11:29:28,464 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2019-12-28 11:29:28,467 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [main] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-28 11:29:28,468 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet 'dispatcherServlet'
+2019-12-28 11:29:28,479 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 11 ms
+2019-12-28 11:29:28,528 INFO org.eclipse.jetty.server.AbstractConnector [main] Started ServerConnector@101952da{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2019-12-28 11:29:28,532 INFO org.springframework.boot.web.embedded.jetty.JettyWebServer [main] Jetty started on port(s) 8081 (http/1.1) with context path '/'
+2019-12-28 11:29:28,535 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 6.875 seconds (JVM running for 7.341)
+2019-12-28 11:32:40,156 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-12] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-28 11:32:40,161 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-12] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 11:32:40,163 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-1 - Shutdown initiated...
+2019-12-28 11:32:40,168 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-1 - Shutdown completed.
+2019-12-28 11:32:40,175 INFO org.eclipse.jetty.server.AbstractConnector [Thread-12] Stopped ServerConnector@101952da{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2019-12-28 11:32:40,176 INFO org.eclipse.jetty.server.session.HouseKeeper [Thread-12] node0 Stopped scavenging
+2019-12-28 11:32:40,178 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [Thread-12] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2019-12-28 11:32:40,179 INFO org.eclipse.jetty.server.handler.ContextHandler [Thread-12] Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@2b0f373b{application,/,[file:///private/var/folders/jm/6wbg86m14ls3y573xtjkhjkr0000gp/T/jetty-docbase.7804750101732495650.8081/, jar:file:/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/global-provisioning-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2019-12-28 11:39:21,639 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication v0.0.1-SNAPSHOT on C02V400GHTD6 with PID 34755 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/global-provisioning-0.0.1-SNAPSHOT.jar started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2019-12-28 11:39:21,642 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-12-28 11:39:21,643 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-28 11:39:22,636 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:181)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:141)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:117)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:327)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:705)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.marvel.gps.GlobalProvisioningServiceApplication.main(GlobalProvisioningServiceApplication.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:51)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:52)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [springfox.documentation.spring.data.rest.schema.SpringDataRestSchemaExtensions] from ClassLoader [org.springframework.boot.loader.LaunchedURLClassLoader@439f5b3d]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:507)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:404)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:389)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:447)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:738)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:679)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:647)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1518)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1023)
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.addBeanTypeForNonAliasDefinition(BeanTypeRegistry.java:189)
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.addBeanTypeForNonAliasDefinition(BeanTypeRegistry.java:156)
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.addBeanType(BeanTypeRegistry.java:149)
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.updateTypesIfNecessary(BeanTypeRegistry.java:137)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.updateTypesIfNecessary(BeanTypeRegistry.java:132)
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.getNamesForType(BeanTypeRegistry.java:96)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:269)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:262)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:251)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:171)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:145)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 25 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: springfox/documentation/spi/schema/EnumTypeDeterminer
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:489)
+	... 47 common frames omitted
+Caused by: java.lang.ClassNotFoundException: springfox.documentation.spi.schema.EnumTypeDeterminer
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at org.springframework.boot.loader.LaunchedURLClassLoader.loadClass(LaunchedURLClassLoader.java:93)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 51 common frames omitted
+2019-12-28 11:39:22,666 WARN org.springframework.boot.SpringApplication [main] Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [springfox.documentation.spring.data.rest.schema.SpringDataRestSchemaExtensions] from ClassLoader [org.springframework.boot.loader.LaunchedURLClassLoader@439f5b3d]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:507)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:404)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:389)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:447)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:738)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:679)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:647)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1518)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:604)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:596)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1226)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:866)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:854)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:841)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:792)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.marvel.gps.GlobalProvisioningServiceApplication.main(GlobalProvisioningServiceApplication.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:51)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:52)
+Caused by: java.lang.NoClassDefFoundError: springfox/documentation/spi/schema/EnumTypeDeterminer
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:489)
+	... 29 common frames omitted
+Caused by: java.lang.ClassNotFoundException: springfox.documentation.spi.schema.EnumTypeDeterminer
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at org.springframework.boot.loader.LaunchedURLClassLoader.loadClass(LaunchedURLClassLoader.java:93)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 33 common frames omitted
+2019-12-28 11:41:58,646 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication v0.0.1-SNAPSHOT on C02V400GHTD6 with PID 34872 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/global-provisioning-0.0.1-SNAPSHOT.jar started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2019-12-28 11:41:58,649 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-12-28 11:41:58,650 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-28 11:41:59,644 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:181)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:141)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:117)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:327)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:705)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.marvel.gps.GlobalProvisioningServiceApplication.main(GlobalProvisioningServiceApplication.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:51)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:52)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [springfox.documentation.spring.data.rest.schema.SpringDataRestSchemaExtensions] from ClassLoader [org.springframework.boot.loader.LaunchedURLClassLoader@439f5b3d]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:507)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:404)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:389)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:447)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1688)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:738)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:679)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:647)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1518)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1023)
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.addBeanTypeForNonAliasDefinition(BeanTypeRegistry.java:189)
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.addBeanTypeForNonAliasDefinition(BeanTypeRegistry.java:156)
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.addBeanType(BeanTypeRegistry.java:149)
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.updateTypesIfNecessary(BeanTypeRegistry.java:137)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.updateTypesIfNecessary(BeanTypeRegistry.java:132)
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.getNamesForType(BeanTypeRegistry.java:96)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:269)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:262)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:251)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:171)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:145)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 25 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: springfox/documentation/spi/schema/SyntheticModelProviderPlugin
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at org.springframework.boot.loader.LaunchedURLClassLoader.loadClass(LaunchedURLClassLoader.java:93)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:489)
+	... 47 common frames omitted
+Caused by: java.lang.ClassNotFoundException: springfox.documentation.spi.schema.SyntheticModelProviderPlugin
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at org.springframework.boot.loader.LaunchedURLClassLoader.loadClass(LaunchedURLClassLoader.java:93)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 63 common frames omitted
+2019-12-28 11:41:59,658 WARN org.springframework.boot.SpringApplication [main] Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [springfox.documentation.spring.data.rest.schema.SpringDataRestSchemaExtensions] from ClassLoader [org.springframework.boot.loader.LaunchedURLClassLoader@439f5b3d]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:507)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:404)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:389)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:447)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1688)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:738)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:679)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:647)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1518)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:604)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:596)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1226)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:866)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:854)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:841)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:792)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.marvel.gps.GlobalProvisioningServiceApplication.main(GlobalProvisioningServiceApplication.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:51)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:52)
+Caused by: java.lang.NoClassDefFoundError: springfox/documentation/spi/schema/SyntheticModelProviderPlugin
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at org.springframework.boot.loader.LaunchedURLClassLoader.loadClass(LaunchedURLClassLoader.java:93)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:489)
+	... 29 common frames omitted
+Caused by: java.lang.ClassNotFoundException: springfox.documentation.spi.schema.SyntheticModelProviderPlugin
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at org.springframework.boot.loader.LaunchedURLClassLoader.loadClass(LaunchedURLClassLoader.java:93)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 45 common frames omitted
+2019-12-28 11:44:14,952 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication v0.0.1-SNAPSHOT on C02V400GHTD6 with PID 34928 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/global-provisioning-0.0.1-SNAPSHOT.jar started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2019-12-28 11:44:14,955 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-12-28 11:44:14,956 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-28 11:44:16,065 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-28 11:44:16,143 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 71ms. Found 2 repository interfaces.
+2019-12-28 11:44:16,651 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$afb6fb66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:44:16,706 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$4864c3a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:44:16,713 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:44:16,715 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3012646b' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:44:16,717 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$6d396652] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:44:16,724 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:44:16,747 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$2f374898] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:44:17,035 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @3088ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-12-28 11:44:17,139 INFO org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory [main] Server initialized with port: 8081
+2019-12-28 11:44:17,142 INFO org.eclipse.jetty.server.Server [main] jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_144-b01
+2019-12-28 11:44:17,183 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [main] Initializing Spring embedded WebApplicationContext
+2019-12-28 11:44:17,184 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2165 ms
+2019-12-28 11:44:17,861 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-12-28 11:44:18,006 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-12-28 11:44:18,074 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-28 11:44:18,152 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.12.Final}
+2019-12-28 11:44:18,155 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-12-28 11:44:18,313 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-28 11:44:18,527 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2019-12-28 11:44:18,546 INFO org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2019-12-28 11:44:18,553 INFO org.hibernate.type.BasicTypeRegistry [main] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1e44b638
+2019-12-28 11:44:19,282 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@4cf8b2dc'
+2019-12-28 11:44:19,286 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 11:44:19,793 INFO org.eclipse.jetty.server.session.DefaultSessionIdManager [main] DefaultSessionIdManager workerName=node0
+2019-12-28 11:44:19,794 INFO org.eclipse.jetty.server.session.DefaultSessionIdManager [main] No SessionScavenger set, using defaults
+2019-12-28 11:44:19,795 INFO org.eclipse.jetty.server.session.HouseKeeper [main] node0 Scavenging every 600000ms
+2019-12-28 11:44:19,802 INFO org.eclipse.jetty.server.handler.ContextHandler [main] Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@2b95e48b{application,/,[file:///private/var/folders/jm/6wbg86m14ls3y573xtjkhjkr0000gp/T/jetty-docbase.1158609023911195306.8081/, jar:file:/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/global-provisioning-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/springfox-swagger-ui-2.8.0.jar!/META-INF/resources],AVAILABLE}
+2019-12-28 11:44:19,803 INFO org.eclipse.jetty.server.Server [main] Started @5856ms
+2019-12-28 11:44:20,113 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-28 11:44:20,881 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-28 11:44:21,554 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@30b34287, org.springframework.security.web.context.SecurityContextPersistenceFilter@200a26bc, org.springframework.security.web.header.HeaderWriterFilter@4108fa66, org.springframework.web.filter.CorsFilter@5489c777, org.springframework.security.web.authentication.logout.LogoutFilter@77cf3f8b, com.marvel.gps.security.jwt.JWTAuthTokenFilter@4b672daa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b5bc39d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34abdee4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3676ac27, org.springframework.security.web.session.SessionManagementFilter@7e0aadd0, org.springframework.security.web.access.ExceptionTranslationFilter@5ef8df1e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@21a5fd96]
+2019-12-28 11:44:21,777 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-28 11:44:22,236 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2019-12-28 11:44:22,262 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2019-12-28 11:44:22,266 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NoSuchMethodError: org.springframework.data.repository.support.Repositories.getRepositoryInformationFor(Ljava/lang/Class;)Lorg/springframework/data/repository/core/RepositoryInformation;
+2019-12-28 11:44:22,267 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-28 11:44:22,269 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 11:44:22,271 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2019-12-28 11:44:22,274 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2019-12-28 11:44:22,279 INFO org.eclipse.jetty.server.session.HouseKeeper [main] node0 Stopped scavenging
+2019-12-28 11:44:22,281 INFO org.eclipse.jetty.server.handler.ContextHandler [main] Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@2b95e48b{application,/,[file:///private/var/folders/jm/6wbg86m14ls3y573xtjkhjkr0000gp/T/jetty-docbase.1158609023911195306.8081/, jar:file:/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/global-provisioning-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/springfox-swagger-ui-2.8.0.jar!/META-INF/resources],UNAVAILABLE}
+2019-12-28 11:44:22,288 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-28 11:44:22,290 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    springfox.documentation.spring.data.rest.EntityServicesProvider.requestHandlers(EntityServicesProvider.java:81)
+
+The following method did not exist:
+
+    org.springframework.data.repository.support.Repositories.getRepositoryInformationFor(Ljava/lang/Class;)Lorg/springframework/data/repository/core/RepositoryInformation;
+
+The method's class, org.springframework.data.repository.support.Repositories, is available from the following locations:
+
+    jar:file:/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/global-provisioning-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-data-commons-2.1.11.RELEASE.jar!/org/springframework/data/repository/support/Repositories.class
+
+It was loaded from the following location:
+
+    jar:file:/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/global-provisioning-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-data-commons-2.1.11.RELEASE.jar!/
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.springframework.data.repository.support.Repositories
+
+2019-12-28 11:50:48,565 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplicationTests on C02V400GHTD6 with PID 35054 (started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2019-12-28 11:50:48,567 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-28 11:50:48,567 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-28 11:50:49,495 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-28 11:50:49,569 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 66ms. Found 2 JPA repository interfaces.
+2019-12-28 11:50:50,166 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,201 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,207 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,209 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2e86807a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,217 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,224 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,251 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$c1957f42] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,275 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'relProviderPluginRegistry' of type [org.springframework.plugin.core.support.PluginRegistryFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,282 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'relProviderPluginRegistry' of type [org.springframework.plugin.core.OrderAwarePluginRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,288 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean '_relProvider' of type [org.springframework.hateoas.server.core.DelegatingLinkRelationProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,297 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'messageResolver' of type [org.springframework.hateoas.mediatype.MessageSourceResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,302 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.hateoas.mediatype.hal.HalMediaTypeConfiguration' of type [org.springframework.hateoas.mediatype.hal.HalMediaTypeConfiguration$$EnhancerBySpringCGLIB$$1b8a0e17] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,307 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,311 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,316 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,333 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,337 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,342 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,352 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,357 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,370 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,375 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [org.springframework.data.web.config.SpringDataJacksonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,386 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'jacksonGeoModule' of type [org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,392 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,416 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,458 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'hypermediaWebMvcConverters' of type [org.springframework.hateoas.config.WebConverters] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:50:50,517 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'globalProvisioningServiceApplication': Unsatisfied dependency expressed through field 'roleRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'roleRepository': Cannot create inner bean '(inner bean)#1b9d9a2b' of type [org.springframework.orm.jpa.SharedEntityManagerCreator] while setting bean property 'entityManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#1b9d9a2b': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'entityManagerFactory' available
+2019-12-28 11:50:50,526 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-28 11:50:50,568 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field roleRepository in com.marvel.gps.GlobalProvisioningServiceApplication required a bean named 'entityManagerFactory' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean named 'entityManagerFactory' in your configuration.
+
+2019-12-28 11:50:50,571 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@2af004b] to prepare test instance [com.marvel.gps.GlobalProvisioningServiceApplicationTests@3443e476]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'globalProvisioningServiceApplication': Unsatisfied dependency expressed through field 'roleRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'roleRepository': Cannot create inner bean '(inner bean)#1b9d9a2b' of type [org.springframework.orm.jpa.SharedEntityManagerCreator] while setting bean property 'entityManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#1b9d9a2b': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'entityManagerFactory' available
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 65 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'roleRepository': Cannot create inner bean '(inner bean)#1b9d9a2b' of type [org.springframework.orm.jpa.SharedEntityManagerCreator] while setting bean property 'entityManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#1b9d9a2b': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'entityManagerFactory' available
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:389)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:134)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1699)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1444)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 83 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#1b9d9a2b': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'entityManagerFactory' available
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:342)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:691)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:374)
+	... 96 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'entityManagerFactory' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:805)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1278)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:297)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330)
+	... 104 common frames omitted
+2019-12-28 11:51:56,581 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication v0.0.1-SNAPSHOT on C02V400GHTD6 with PID 35101 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/global-provisioning-0.0.1-SNAPSHOT.jar started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2019-12-28 11:51:56,588 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2019-12-28 11:51:56,589 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-28 11:51:57,593 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-28 11:51:57,664 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 63ms. Found 2 JPA repository interfaces.
+2019-12-28 11:51:58,252 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,285 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,289 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,292 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4e08711f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,295 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,300 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,323 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$8d9c9666] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,345 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'relProviderPluginRegistry' of type [org.springframework.plugin.core.support.PluginRegistryFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,352 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'relProviderPluginRegistry' of type [org.springframework.plugin.core.OrderAwarePluginRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,357 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean '_relProvider' of type [org.springframework.hateoas.server.core.DelegatingLinkRelationProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,364 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'messageResolver' of type [org.springframework.hateoas.mediatype.MessageSourceResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,366 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.hateoas.mediatype.hal.HalMediaTypeConfiguration' of type [org.springframework.hateoas.mediatype.hal.HalMediaTypeConfiguration$$EnhancerBySpringCGLIB$$e791253b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,370 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,372 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,375 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,392 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,393 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,396 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,401 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,405 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,417 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,421 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [org.springframework.data.web.config.SpringDataJacksonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,426 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'jacksonGeoModule' of type [org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,430 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,449 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,505 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'hypermediaWebMvcConverters' of type [org.springframework.hateoas.config.WebConverters] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:51:58,521 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+2019-12-28 11:51:58,535 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-28 11:51:58,540 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:156)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.marvel.gps.GlobalProvisioningServiceApplication.main(GlobalProvisioningServiceApplication.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:51)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:52)
+Caused by: org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:203)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:179)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153)
+	... 16 common frames omitted
+2019-12-28 11:53:39,263 DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator [background-preinit] Loaded expression factory via original TCCL
+2019-12-28 11:53:39,388 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication v0.0.1-SNAPSHOT on C02V400GHTD6 with PID 35172 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/global-provisioning-0.0.1-SNAPSHOT.jar started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2019-12-28 11:53:39,389 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-12-28 11:53:39,389 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-28 11:53:40,454 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-28 11:53:40,530 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 68ms. Found 2 repository interfaces.
+2019-12-28 11:53:40,915 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de58a5ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:53:40,966 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$77066de8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:53:40,973 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:53:40,976 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4470f8a6' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:53:40,979 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$9bdb109a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:53:40,984 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:53:41,208 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @2736ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-12-28 11:53:41,326 INFO org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory [main] Server initialized with port: 8081
+2019-12-28 11:53:41,330 INFO org.eclipse.jetty.server.Server [main] jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_144-b01
+2019-12-28 11:53:41,388 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [main] Initializing Spring embedded WebApplicationContext
+2019-12-28 11:53:41,389 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1945 ms
+2019-12-28 11:53:41,829 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-12-28 11:53:41,957 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-12-28 11:53:42,010 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-28 11:53:42,082 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.12.Final}
+2019-12-28 11:53:42,084 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-12-28 11:53:42,203 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-28 11:53:42,386 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2019-12-28 11:53:42,400 INFO org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2019-12-28 11:53:42,406 INFO org.hibernate.type.BasicTypeRegistry [main] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@147e2ae7
+2019-12-28 11:53:43,099 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@29ca3d04'
+2019-12-28 11:53:43,102 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 11:53:43,586 INFO org.eclipse.jetty.server.session.DefaultSessionIdManager [main] DefaultSessionIdManager workerName=node0
+2019-12-28 11:53:43,587 INFO org.eclipse.jetty.server.session.DefaultSessionIdManager [main] No SessionScavenger set, using defaults
+2019-12-28 11:53:43,589 INFO org.eclipse.jetty.server.session.HouseKeeper [main] node0 Scavenging every 660000ms
+2019-12-28 11:53:43,617 INFO org.eclipse.jetty.server.handler.ContextHandler [main] Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@6ff65192{application,/,[file:///private/var/folders/jm/6wbg86m14ls3y573xtjkhjkr0000gp/T/jetty-docbase.5573563670903303229.8081/, jar:file:/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/global-provisioning-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2019-12-28 11:53:43,619 INFO org.eclipse.jetty.server.Server [main] Started @5147ms
+2019-12-28 11:53:43,975 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-28 11:53:44,109 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-28 11:53:44,776 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b057c8c, org.springframework.security.web.context.SecurityContextPersistenceFilter@4fc5e095, org.springframework.security.web.header.HeaderWriterFilter@590c73d3, org.springframework.web.filter.CorsFilter@1eb6749b, org.springframework.security.web.authentication.logout.LogoutFilter@62ea3440, com.marvel.gps.security.jwt.JWTAuthTokenFilter@767e20cf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@609640d5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@192d74fb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@652a7737, org.springframework.security.web.session.SessionManagementFilter@61884cb1, org.springframework.security.web.access.ExceptionTranslationFilter@6f2cb653, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@239b0f9d]
+2019-12-28 11:53:44,922 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-28 11:53:45,157 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2019-12-28 11:53:45,179 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2019-12-28 11:53:45,214 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2019-12-28 11:53:45,357 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2019-12-28 11:53:45,361 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [main] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-28 11:53:45,361 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet 'dispatcherServlet'
+2019-12-28 11:53:45,369 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 8 ms
+2019-12-28 11:53:45,398 INFO org.eclipse.jetty.server.AbstractConnector [main] Started ServerConnector@2df9b86{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2019-12-28 11:53:45,400 INFO org.springframework.boot.web.embedded.jetty.JettyWebServer [main] Jetty started on port(s) 8081 (http/1.1) with context path '/'
+2019-12-28 11:53:45,402 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 6.501 seconds (JVM running for 6.93)
+2019-12-28 11:57:16,144 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-12] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-28 11:57:16,153 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-12] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 11:57:16,161 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-1 - Shutdown initiated...
+2019-12-28 11:57:16,164 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-1 - Shutdown completed.
+2019-12-28 11:57:16,171 INFO org.eclipse.jetty.server.AbstractConnector [Thread-12] Stopped ServerConnector@2df9b86{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2019-12-28 11:57:16,172 INFO org.eclipse.jetty.server.session.HouseKeeper [Thread-12] node0 Stopped scavenging
+2019-12-28 11:57:16,174 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [Thread-12] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2019-12-28 11:57:16,175 INFO org.eclipse.jetty.server.handler.ContextHandler [Thread-12] Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@6ff65192{application,/,[file:///private/var/folders/jm/6wbg86m14ls3y573xtjkhjkr0000gp/T/jetty-docbase.5573563670903303229.8081/, jar:file:/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/global-provisioning-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2019-12-28 11:57:28,954 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication v0.0.1-SNAPSHOT on C02V400GHTD6 with PID 35254 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/global-provisioning-0.0.1-SNAPSHOT.jar started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2019-12-28 11:57:28,957 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-12-28 11:57:28,958 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-28 11:57:29,997 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-28 11:57:30,063 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 58ms. Found 2 repository interfaces.
+2019-12-28 11:57:30,533 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d82b7d20] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:57:30,592 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$70d9455a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:57:30,599 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:57:30,601 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4145bad8' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:57:30,605 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$95ade80c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:57:30,612 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:57:30,635 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$57abca52] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 11:57:30,926 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @2988ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-12-28 11:57:31,020 INFO org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory [main] Server initialized with port: 8081
+2019-12-28 11:57:31,024 INFO org.eclipse.jetty.server.Server [main] jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_144-b01
+2019-12-28 11:57:31,060 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [main] Initializing Spring embedded WebApplicationContext
+2019-12-28 11:57:31,060 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2052 ms
+2019-12-28 11:57:31,714 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-12-28 11:57:31,818 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-12-28 11:57:31,882 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-28 11:57:31,952 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.12.Final}
+2019-12-28 11:57:31,954 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-12-28 11:57:32,089 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-28 11:57:32,287 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2019-12-28 11:57:32,303 INFO org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2019-12-28 11:57:32,308 INFO org.hibernate.type.BasicTypeRegistry [main] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@46b61c56
+2019-12-28 11:57:33,088 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@58ffcbd7'
+2019-12-28 11:57:33,092 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 11:57:33,587 INFO org.eclipse.jetty.server.session.DefaultSessionIdManager [main] DefaultSessionIdManager workerName=node0
+2019-12-28 11:57:33,593 INFO org.eclipse.jetty.server.session.DefaultSessionIdManager [main] No SessionScavenger set, using defaults
+2019-12-28 11:57:33,594 INFO org.eclipse.jetty.server.session.HouseKeeper [main] node0 Scavenging every 660000ms
+2019-12-28 11:57:33,601 INFO org.eclipse.jetty.server.handler.ContextHandler [main] Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@f79a760{application,/,[file:///private/var/folders/jm/6wbg86m14ls3y573xtjkhjkr0000gp/T/jetty-docbase.668541588925675153.8081/, jar:file:/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/global-provisioning-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2019-12-28 11:57:33,602 INFO org.eclipse.jetty.server.Server [main] Started @5665ms
+2019-12-28 11:57:33,882 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-28 11:57:34,846 INFO springfox.documentation.spring.web.WebMvcPropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2ControllerWebMvc.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-28 11:57:34,975 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@fff25f1, org.springframework.security.web.context.SecurityContextPersistenceFilter@10b892d5, org.springframework.security.web.header.HeaderWriterFilter@46cc127b, org.springframework.web.filter.CorsFilter@c00fff0, org.springframework.security.web.authentication.logout.LogoutFilter@42257bdd, com.marvel.gps.security.jwt.JWTAuthTokenFilter@4cc6fa2a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3546d80f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@452e26d0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@263f04ca, org.springframework.security.web.session.SessionManagementFilter@5aceec94, org.springframework.security.web.access.ExceptionTranslationFilter@7e1a1da6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d6bc158]
+2019-12-28 11:57:35,568 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-28 11:57:36,020 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Documentation plugins bootstrapped
+2019-12-28 11:57:36,024 INFO springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2019-12-28 11:57:36,125 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2019-12-28 11:57:36,269 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2019-12-28 11:57:36,272 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [main] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-28 11:57:36,273 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet 'dispatcherServlet'
+2019-12-28 11:57:36,287 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 14 ms
+2019-12-28 11:57:36,315 INFO org.eclipse.jetty.server.AbstractConnector [main] Started ServerConnector@5f8e8a9d{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2019-12-28 11:57:36,316 INFO org.springframework.boot.web.embedded.jetty.JettyWebServer [main] Jetty started on port(s) 8081 (http/1.1) with context path '/'
+2019-12-28 11:57:36,318 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 7.899 seconds (JVM running for 8.38)
+2019-12-28 12:26:15,643 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-12] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-28 12:26:15,648 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-12] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 12:26:15,652 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-1 - Shutdown initiated...
+2019-12-28 12:26:15,655 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-1 - Shutdown completed.
+2019-12-28 12:26:15,664 INFO org.eclipse.jetty.server.AbstractConnector [Thread-12] Stopped ServerConnector@5f8e8a9d{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2019-12-28 12:26:15,664 INFO org.eclipse.jetty.server.session.HouseKeeper [Thread-12] node0 Stopped scavenging
+2019-12-28 12:26:15,667 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [Thread-12] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2019-12-28 12:26:15,669 INFO org.eclipse.jetty.server.handler.ContextHandler [Thread-12] Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@f79a760{application,/,[file:///private/var/folders/jm/6wbg86m14ls3y573xtjkhjkr0000gp/T/jetty-docbase.668541588925675153.8081/, jar:file:/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/global-provisioning-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2019-12-28 12:29:06,819 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication v0.0.1-SNAPSHOT on C02V400GHTD6 with PID 35837 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/global-provisioning-0.0.1-SNAPSHOT.jar started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2019-12-28 12:29:06,822 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-12-28 12:29:06,823 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-28 12:29:07,784 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-28 12:29:07,855 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 64ms. Found 2 repository interfaces.
+2019-12-28 12:29:08,213 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$50b92b13] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 12:29:08,265 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$e966f34d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 12:29:08,271 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 12:29:08,274 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@f2ff811' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 12:29:08,275 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$e3b95ff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 12:29:08,280 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 12:29:08,504 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @2631ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-12-28 12:29:08,611 INFO org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory [main] Server initialized with port: 8081
+2019-12-28 12:29:08,614 INFO org.eclipse.jetty.server.Server [main] jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_144-b01
+2019-12-28 12:29:08,652 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [main] Initializing Spring embedded WebApplicationContext
+2019-12-28 12:29:08,653 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1781 ms
+2019-12-28 12:29:09,076 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-12-28 12:29:09,193 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-12-28 12:29:09,249 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-28 12:29:09,312 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.12.Final}
+2019-12-28 12:29:09,314 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-12-28 12:29:09,430 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-28 12:29:09,610 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2019-12-28 12:29:09,625 INFO org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2019-12-28 12:29:09,630 INFO org.hibernate.type.BasicTypeRegistry [main] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3bcd05cb
+2019-12-28 12:29:10,343 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2f16c6b3'
+2019-12-28 12:29:10,345 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 12:29:10,843 INFO org.eclipse.jetty.server.session.DefaultSessionIdManager [main] DefaultSessionIdManager workerName=node0
+2019-12-28 12:29:10,843 INFO org.eclipse.jetty.server.session.DefaultSessionIdManager [main] No SessionScavenger set, using defaults
+2019-12-28 12:29:10,845 INFO org.eclipse.jetty.server.session.HouseKeeper [main] node0 Scavenging every 660000ms
+2019-12-28 12:29:10,851 INFO org.eclipse.jetty.server.handler.ContextHandler [main] Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@2ceb80a1{application,/,[file:///private/var/folders/jm/6wbg86m14ls3y573xtjkhjkr0000gp/T/jetty-docbase.8570506413676710385.8081/, jar:file:/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/global-provisioning-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2019-12-28 12:29:10,852 INFO org.eclipse.jetty.server.Server [main] Started @4979ms
+2019-12-28 12:29:11,151 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-28 12:29:11,483 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-28 12:29:11,542 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ea9b7c6, org.springframework.security.web.context.SecurityContextPersistenceFilter@52045dbe, org.springframework.security.web.header.HeaderWriterFilter@2bd2b28e, org.springframework.web.filter.CorsFilter@e077866, org.springframework.security.web.authentication.logout.LogoutFilter@56a4479a, com.marvel.gps.security.jwt.JWTAuthTokenFilter@52066604, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c8eee0f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73163d48, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ed3068a, org.springframework.security.web.session.SessionManagementFilter@57fd91c9, org.springframework.security.web.access.ExceptionTranslationFilter@7756c3cd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@40c80397]
+2019-12-28 12:29:12,250 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-28 12:29:12,497 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2019-12-28 12:29:12,529 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2019-12-28 12:29:12,573 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2019-12-28 12:29:12,757 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2019-12-28 12:29:12,761 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [main] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-28 12:29:12,761 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet 'dispatcherServlet'
+2019-12-28 12:29:12,770 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 9 ms
+2019-12-28 12:29:12,801 INFO org.eclipse.jetty.server.AbstractConnector [main] Started ServerConnector@7ea9e1e2{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2019-12-28 12:29:12,803 INFO org.springframework.boot.web.embedded.jetty.JettyWebServer [main] Jetty started on port(s) 8081 (http/1.1) with context path '/'
+2019-12-28 12:29:12,806 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 6.473 seconds (JVM running for 6.933)
+2019-12-28 12:36:54,007 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-12] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-28 12:36:54,011 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-12] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 12:36:54,013 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-1 - Shutdown initiated...
+2019-12-28 12:36:54,016 INFO com.zaxxer.hikari.HikariDataSource [Thread-12] HikariPool-1 - Shutdown completed.
+2019-12-28 12:36:54,022 INFO org.eclipse.jetty.server.AbstractConnector [Thread-12] Stopped ServerConnector@7ea9e1e2{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2019-12-28 12:36:54,023 INFO org.eclipse.jetty.server.session.HouseKeeper [Thread-12] node0 Stopped scavenging
+2019-12-28 12:36:54,025 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [Thread-12] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2019-12-28 12:36:54,026 INFO org.eclipse.jetty.server.handler.ContextHandler [Thread-12] Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@2ceb80a1{application,/,[file:///private/var/folders/jm/6wbg86m14ls3y573xtjkhjkr0000gp/T/jetty-docbase.8570506413676710385.8081/, jar:file:/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/global-provisioning-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],UNAVAILABLE}
+2019-12-28 12:45:31,638 INFO org.springframework.boot.StartupInfoLogger [main] Starting GlobalProvisioningServiceApplication v0.0.1-SNAPSHOT on C02V400GHTD6 with PID 36069 (/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/global-provisioning-0.0.1-SNAPSHOT.jar started by akshayas in /Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService)
+2019-12-28 12:45:31,642 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-12-28 12:45:31,643 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-12-28 12:45:32,968 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-28 12:45:33,033 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 59ms. Found 2 repository interfaces.
+2019-12-28 12:45:33,414 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e50df27a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 12:45:33,470 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$7dbbbab4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 12:45:33,478 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 12:45:33,482 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@55740540' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 12:45:33,485 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$a2905d66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 12:45:33,491 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 12:45:33,716 INFO org.eclipse.jetty.util.log.Log [main] Logging initialized @3057ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-12-28 12:45:33,829 INFO org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory [main] Server initialized with port: 8081
+2019-12-28 12:45:33,832 INFO org.eclipse.jetty.server.Server [main] jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_144-b01
+2019-12-28 12:45:33,872 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [main] Initializing Spring embedded WebApplicationContext
+2019-12-28 12:45:33,873 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2183 ms
+2019-12-28 12:45:34,302 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-12-28 12:45:34,402 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-12-28 12:45:34,452 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-28 12:45:34,521 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.12.Final}
+2019-12-28 12:45:34,524 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-12-28 12:45:34,644 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-28 12:45:34,829 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2019-12-28 12:45:34,844 INFO org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2019-12-28 12:45:34,849 INFO org.hibernate.type.BasicTypeRegistry [main] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@503f91c3
+2019-12-28 12:45:35,563 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@55493582'
+2019-12-28 12:45:35,567 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 12:45:36,045 INFO org.eclipse.jetty.server.session.DefaultSessionIdManager [main] DefaultSessionIdManager workerName=node0
+2019-12-28 12:45:36,045 INFO org.eclipse.jetty.server.session.DefaultSessionIdManager [main] No SessionScavenger set, using defaults
+2019-12-28 12:45:36,047 INFO org.eclipse.jetty.server.session.HouseKeeper [main] node0 Scavenging every 660000ms
+2019-12-28 12:45:36,069 INFO org.eclipse.jetty.server.handler.ContextHandler [main] Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@674bd420{application,/,[file:///private/var/folders/jm/6wbg86m14ls3y573xtjkhjkr0000gp/T/jetty-docbase.8196111584347261109.8081/, jar:file:/Users/akshayas/Documents/workspace-sts-3.9.0.RELEASE/GlobalProvisioningService/target/global-provisioning-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/springfox-swagger-ui-2.7.0.jar!/META-INF/resources],AVAILABLE}
+2019-12-28 12:45:36,070 INFO org.eclipse.jetty.server.Server [main] Started @5411ms
+2019-12-28 12:45:36,335 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-28 12:45:36,479 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-28 12:45:37,132 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75e01201, org.springframework.security.web.context.SecurityContextPersistenceFilter@295eaa7c, org.springframework.security.web.header.HeaderWriterFilter@1e63ec0b, org.springframework.web.filter.CorsFilter@2783717b, org.springframework.security.web.authentication.logout.LogoutFilter@1dd0e7c4, com.marvel.gps.security.jwt.JWTAuthTokenFilter@c5dc4a2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c88b9fc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47605f2f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76f7d241, org.springframework.security.web.session.SessionManagementFilter@36546a22, org.springframework.security.web.access.ExceptionTranslationFilter@13c3c1e1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6bb75258]
+2019-12-28 12:45:37,287 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-28 12:45:37,572 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2019-12-28 12:45:37,598 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2019-12-28 12:45:37,635 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2019-12-28 12:45:37,801 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+2019-12-28 12:45:37,805 INFO org.eclipse.jetty.server.handler.ContextHandler$Context [main] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-28 12:45:37,805 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet 'dispatcherServlet'
+2019-12-28 12:45:37,815 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 10 ms
+2019-12-28 12:45:37,845 INFO org.eclipse.jetty.server.AbstractConnector [main] Started ServerConnector@50b5ac82{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2019-12-28 12:45:37,846 INFO org.springframework.boot.web.embedded.jetty.JettyWebServer [main] Jetty started on port(s) 8081 (http/1.1) with context path '/'
+2019-12-28 12:45:37,848 INFO org.springframework.boot.StartupInfoLogger [main] Started GlobalProvisioningServiceApplication in 6.745 seconds (JVM running for 7.19)
+2019-12-28 19:41:10,212 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m30s958ms).
