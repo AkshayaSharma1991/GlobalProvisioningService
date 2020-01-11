@@ -4,6 +4,7 @@ import com.marvel.gps.constants.GPSConstants;
 import com.marvel.gps.model.UserVMProvison;
 import com.marvel.gps.service.VMProvisionService;
 import com.marvel.gps.util.LoggingUtil;
+import com.marvel.gps.web.dto.request.VMProvisionRequest;
 import com.marvel.gps.web.dto.response.ServiceResponseDTO;
 import com.marvel.gps.web.dto.response.VMDetailsResponse;
 import io.swagger.annotations.Api;
@@ -13,6 +14,7 @@ import java.io.IOException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -39,16 +41,15 @@ public class ProvisioningController {
 
     @PostMapping(value = "/requestVM")
     @ApiOperation(value="Request VM For User", tags = { "VM Provisioning and Management" })
-    public ResponseEntity<?> requestVM(@Valid @NotBlank @RequestParam @ApiParam(name = "OS", value = "OS Types available for provisioning", required = true, allowableValues = "MAC OS, Linux, Windows") String OS, @RequestParam @ApiParam(name = "RAM", type = "integer", value = "RAM available for provisioning (in GiB)", required = true, allowableValues = "28, 56, 112, 224, 228") int RAM, @RequestParam @ApiParam(name = "HardDisk", type = "integer", value = "Hard disk size for provisioning (in GiB)", required = true, allowableValues = "192, 256, 512, 1024, 2048, 4096") int HardDisk, @RequestParam @ApiParam(name = "CPUCores", type = "integer", value = "CPU Cores available for provisioning", required = true, allowableValues = "8, 16, 32, 64, 128") int CPUCores) {
-        if(OS==null || OS.isEmpty())
-            throw new IllegalArgumentException();
+    public ResponseEntity<?> requestVM(@Valid @RequestBody VMProvisionRequest request) {
+
         String correlationId = generateUniqueCorrelationId();
         UserDetails userDetails = (UserDetails) SecurityContextHolder.getContext().getAuthentication()
                 .getPrincipal();
         String username = userDetails.getUsername();
         LOG.info("VM Provision request received for user: " + username, correlationId);
         try {
-            provisionService.createVMForUser(OS, RAM, HardDisk, CPUCores, username, correlationId);
+            provisionService.createVMForUser(request.getOS(), request.getRam(), request.getHardDisk(), request.getCpuCore(), username, correlationId);
             ServiceResponseDTO responseDTO = new ServiceResponseDTO(GPSConstants.SERVICE_RESPONSE_SUCCESS, "VM Created successfully for user: " + username);
             LOG.info("VM Provision successfully completed for user: " + username, correlationId);
             return new ResponseEntity<ServiceResponseDTO>(responseDTO, HttpStatus.OK);
@@ -124,7 +125,7 @@ public class ProvisioningController {
         return responseList;
     }
 
-    @ExceptionHandler
+    @ExceptionHandler(value= MethodArgumentTypeMismatchException.class)
     void handleMethodArgumentTypeMismatchException(MethodArgumentTypeMismatchException e, HttpServletResponse response) throws IOException {
         response.sendError(HttpStatus.BAD_REQUEST.value(), String.format("Invalid Parameter to %s, parameter: %s invalid.  Reason: Invalid data passed in parameter", e.getParameter(), e.getName()));
     }

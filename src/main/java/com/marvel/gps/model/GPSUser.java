@@ -1,9 +1,7 @@
 package com.marvel.gps.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
@@ -13,7 +11,16 @@ import java.util.List;
 @ToString
 @Getter
 @Setter
+@NoArgsConstructor
 public class GPSUser extends AuditModel {
+
+    public GPSUser(String userName, String password, String email, String mobileNo, Role userRole){
+        this.userName = userName;
+        this.password = password;
+        this.email = email;
+        this.mobileNo = mobileNo;
+        this.role = userRole;
+    }
 
     @Id
     @GeneratedValue
@@ -41,7 +48,7 @@ public class GPSUser extends AuditModel {
             inverseJoinColumns = @JoinColumn(name = "role_id"))
     private Role role;
 
-    @OneToMany(cascade = CascadeType.REMOVE, orphanRemoval=true)
+    @OneToMany(mappedBy = "GPSUser", cascade = CascadeType.ALL)
     @JsonIgnore
     private List<UserVMProvison> userVMProvisonList;
 }

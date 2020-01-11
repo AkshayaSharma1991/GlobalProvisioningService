@@ -58,23 +58,29 @@ public class UserController {
     @ApiOperation(value="Create new user", tags = { "User Management" })
     public ResponseEntity<?> createNewUser(@RequestBody UserDTO user) {
         ServiceResponseDTO responseDTO = null;
+        GPSUser gpsUser = null;
+        try{
         LOG.info("Checking if username is already registered.  User Name " + user.getUserName(), "");
         if (userRepository.findByUserName(user.getUserName()) != null) {
-            LOG.error("User already exists.  User name available error. ", "");
-            return new ResponseEntity<String>("User name already registered.", HttpStatus.INTERNAL_SERVER_ERROR);
+            String errorMessage = "User already exists.  User name available error. ";
+            LOG.error(errorMessage, "");
+            throw new UserException(errorMessage);
         }
         LOG.info("Checking if email is already registered.  Email Id: " + user.getEmail(), "");
         if (userRepository.findByEmail(user.getEmail()) != null) {
-            LOG.error("User already exists.  Email available error. ", "");
-            return new ResponseEntity<String>("User Email already registered.", HttpStatus.INTERNAL_SERVER_ERROR);
+            String errorMessage = "User already exists.  Email available error.";
+            LOG.error(errorMessage, "");
+            throw new UserException(errorMessage);
         }
         LOG.info("Checking if mobile number is already registered.  Mobile No: " + user.getMobileNo(), "");
         if (userRepository.findByMobileNo(user.getMobileNo()) != null) {
-            LOG.error("User already exists.  Mobile number available error. ", "");
-            return new ResponseEntity<String>("User Mobile already registered.", HttpStatus.INTERNAL_SERVER_ERROR);
+            String errorMessage = "User already exists.  Mobile number available error. ";
+            LOG.error(errorMessage, "");
+            throw new UserException(errorMessage);
         }
+
         LOG.info("User does not exist in the system.  Creating user: " + user.getUserName(), "");
-        GPSUser gpsUser = new GPSUser();
+        gpsUser = new GPSUser();
         gpsUser.setEmail(user.getEmail());
         Role role;
         String strRole = user.getRole();
@@ -103,19 +109,18 @@ public class UserController {
         gpsUser.setPassword(encoder.passwordEncoder().encode(user.getPassword()));
         gpsUser.setMobileNo(user.getMobileNo());
 
-        try {
+
             gpsUser = userService.createUser(gpsUser);
             LOG.info("User creation successful.  Id: " + gpsUser.getUserId(), "");
             responseDTO = new ServiceResponseDTO(GPSConstants.SERVICE_RESPONSE_SUCCESS, "User creation successful.  Id: " + gpsUser.getUserId());
             return new ResponseEntity<ServiceResponseDTO>(responseDTO, HttpStatus.OK);
         } catch (UserException e){
             LOG.error("User creation resulted in an error.  Reason: " + e.getMessage(), "");
-            responseDTO = new ServiceResponseDTO(GPSConstants.SERVICE_RESPONSE_FAILURE, "User creation failed." + gpsUser.getUserId() + " Reason: " + e.getMessage());
+            responseDTO = new ServiceResponseDTO(GPSConstants.SERVICE_RESPONSE_FAILURE, "User creation failed." + " Reason: " + e.getMessage());
             return new ResponseEntity<ServiceResponseDTO>(responseDTO, HttpStatus.INTERNAL_SERVER_ERROR);
         }
 
     }
-
 
     @PostMapping("/user/signin")
     @ApiOperation(value="User sign-in (or) JWT Token generation for user", tags = { "User Management" })

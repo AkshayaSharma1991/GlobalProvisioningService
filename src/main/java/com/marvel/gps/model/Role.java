@@ -1,5 +1,7 @@
 package com.marvel.gps.model;
 
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 
 @Entity

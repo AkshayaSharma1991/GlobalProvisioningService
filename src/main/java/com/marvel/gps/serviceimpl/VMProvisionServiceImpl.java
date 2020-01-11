@@ -4,7 +4,6 @@ import com.marvel.gps.exception.UserException;
 import com.marvel.gps.exception.VMProvisionException;
 import com.marvel.gps.model.GPSUser;
 import com.marvel.gps.model.UserVMProvison;
-import com.marvel.gps.repository.GPSUserRepository;
 import com.marvel.gps.repository.UserVMProvisionRepository;
 import com.marvel.gps.service.UserService;
 import com.marvel.gps.service.VMProvisionService;
@@ -23,7 +22,9 @@ public class VMProvisionServiceImpl implements VMProvisionService {
     @Autowired
     UserService userService;
 
-
+    public void setUserService(UserService userService) {
+        this.userService = userService;
+    }
 
     private static final LoggingUtil LOG = new LoggingUtil(VMProvisionServiceImpl.class);
 

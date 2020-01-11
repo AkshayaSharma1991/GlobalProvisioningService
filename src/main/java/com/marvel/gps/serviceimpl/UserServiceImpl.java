@@ -18,11 +18,15 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public GPSUser createUser(GPSUser user)throws UserException {
+        if(user == null)
+            throw new UserException("GPS User cannot be null");
         return userRepository.save(user);
     }
 
     @Override
     public GPSUser loadUserByUserName(String username) throws UserException {
+        if(username == null || username.isEmpty())
+            throw new UserException("GPS User name cannot be null");
         GPSUser user = userRepository.findByUserName(username);
         if(user == null)
             throw new UserException(String.format("User name %s not found in GPS." , username));
@@ -32,9 +36,13 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void deleteUser(String userName) throws UserException{
-            GPSUser user = loadUserByUserName(userName);
-            if(user == null)
-                throw new UserException(String.format("User name %s not found in GPS." , userName));
+        if(userName == null || userName.isEmpty())
+            throw new UserException("GPS User name cannot be null");
+        GPSUser user = loadUserByUserName(userName);
+            if(user == null) {
+                System.out.println("Invalid user");
+                throw new UserException(String.format("User name %s not found in GPS.", userName));
+            }
             Long userId = user.getUserId();
             userRepository.deleteById(userId);
     }
