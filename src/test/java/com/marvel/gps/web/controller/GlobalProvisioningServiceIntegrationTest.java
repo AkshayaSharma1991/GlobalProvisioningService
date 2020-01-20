@@ -163,7 +163,7 @@ public class GlobalProvisioningServiceIntegrationTest {
         MvcResult getResult = mockMvc.perform(get("/gps/provisionService/getTopN_VMsBasedOnRAM").header(AUTH_HEADER, jwtToken).param("count", "100")).andExpect(status().isOk()).andReturn();
         String getResultContent = getResult.getResponse().getContentAsString();
         List<VMDetailsResponse> responseDTO1 = Arrays.asList(om.readValue(getResultContent, VMDetailsResponse[].class));
-        Assert.assertEquals(224, responseDTO1.get(0).getRam());
+        Assert.assertEquals(32, responseDTO1.get(0).getRam());
     }
 
     @Test
@@ -181,7 +181,7 @@ public class GlobalProvisioningServiceIntegrationTest {
         MvcResult getResult = mockMvc.perform(get("/gps/provisionService/getTopN_VMsBasedOnRAM").header(AUTH_HEADER, jwtToken).param("count", "100").param("userName", "TestUser")).andExpect(status().isOk()).andReturn();
         String getResultContent = getResult.getResponse().getContentAsString();
         List<VMDetailsResponse> responseDTO1 = Arrays.asList(om.readValue(getResultContent, VMDetailsResponse[].class));
-        Assert.assertEquals(64, responseDTO1.get(0).getRam());
+        Assert.assertEquals(32, responseDTO1.get(0).getRam());
     }
 
     @Test

@@ -1,5 +1,3 @@
-package com.marvel.gps.service;
-
 import com.marvel.gps.exception.UserException;
 import com.marvel.gps.model.GPSUser;
 import com.marvel.gps.model.Role;

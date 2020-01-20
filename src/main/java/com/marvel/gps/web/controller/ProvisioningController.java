@@ -61,7 +61,26 @@ public class ProvisioningController {
 
     }
 
-    @GetMapping(value = "/getVMsForUser")
+    @GetMapping(value = "/listVMsForSelf")
+    @ApiOperation(value="Get all VMs For Self", tags = { "VM Provisioning and Management" })
+    public ResponseEntity<?> listVMForSelf(){
+        String correlationId = generateUniqueCorrelationId();
+        UserDetails userDetails = (UserDetails) SecurityContextHolder.getContext().getAuthentication()
+                .getPrincipal();
+        String userName = userDetails.getUsername();
+        LOG.info("Request received to list VM for user: " + userName, correlationId);
+        try{
+            List<UserVMProvison> vmList = provisionService.getVMListForUser(userName, correlationId);
+            LOG.info("VM List received successfully for user: " + userName, correlationId);
+            return new ResponseEntity<List<VMDetailsResponse>>(buildResponseList(vmList), HttpStatus.OK);
+        } catch (Exception e){
+            LOG.error("VM List fetch failed for user: " + userName, correlationId);
+            return new ResponseEntity<ServiceResponseDTO>(new ServiceResponseDTO(GPSConstants.SERVICE_RESPONSE_FAILURE, "VM List fetch failed for user: " + userName + " .  Reason: " + e.getMessage()), HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+
+    }
+
+    @GetMapping(value = "/listVMsForUser")
     @ApiOperation(value="Get all VMs For User (Role Required: MASTER)", tags = { "VM Provisioning and Management" })
     @PreAuthorize("hasAuthority('ROLE_MASTER')")
     public ResponseEntity<?> listVMForUser(@RequestParam String userName){
@@ -78,7 +97,7 @@ public class ProvisioningController {
 
     }
 
-    @GetMapping(value = "/getTopN_VMsForUserBasedOnRAM")
+    @GetMapping(value = "/listTopN_VMsForUserBasedOnRAM")
     @ApiOperation(value="Get top N VMs for user based on Memory", tags = { "VM Provisioning and Management" })
     public ResponseEntity<?> getVMBasedOnUserAndRAM(@RequestParam int count){
         String correlationId = generateUniqueCorrelationId();
@@ -96,7 +115,7 @@ public class ProvisioningController {
         }
     }
 
-    @GetMapping(value = "/getTopN_VMsBasedOnRAM")
+    @GetMapping(value = "/listTopN_VMsBasedOnRAM")
     @PreAuthorize("hasAuthority('ROLE_MASTER')")
     @ApiOperation(value="Get top N VMs based on Memory (Role Required: MASTER)", tags = { "VM Provisioning and Management" })
     public ResponseEntity<?> getVMBasedOnRAM(@RequestParam int count){
